@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-10-21",
+  "official_sources": [
+    "NCERT Foundational Learning Study (FLS) 2022",
+    "Ministry of Education NIPUN Bharat Guidelines 2021",
+    "NCERT Learning Outcomes at the Foundational Stage 2025",
+    "NCERT Learning Outcomes at the Elementary Stage 2017",
+    "Basic Shiksha Parishad Uttar Pradesh NIPUN Tables & Class 3 Guide",
+    "RSCERT Udaipur Hindi Teacher Guides 2025"
+  ],
+  "grades": {
+    "1": {
+      "grade": 1,
+      "has_official_speed_target": false,
+      "official_target_text_en": "Reads short sentences of 4 to 5 simple words with age-appropriate vocabulary.",
+      "official_target_text_hi": "4 से 5 सरल शब्दों वाले छोटे वाक्य सही उच्चारण के साथ पढ़ता है।",
+      "min_words_per_minute": null,
+      "max_words_per_minute": null,
+      "target_wpm": null,
+      "accuracy_target_pct": 85,
+      "comprehension_target_ratio": "2/3",
+      "source_label": "NIPUN Bharat Guidelines 2021 (Lakshya Grade 1)",
+      "explanation_en": "No official numerical reading-speed target. Progress is compared with the child's own earlier checks.",
+      "explanation_hi": "कक्षा 1 के लिए कोई निश्चित गति संख्या नहीं है; बच्चे की प्रगति की तुलना उसके पहले के प्रयासों से की जाती है।"
+    },
+    "2": {
+      "grade": 2,
+      "has_official_speed_target": true,
+      "official_target_text_en": "45 to 60 correct words per minute with meaning.",
+      "official_target_text_hi": "45 से 60 शब्द प्रति मिनट की गति से अर्थ के साथ पढ़ता है (उत्तर प्रदेश: कम से कम 45 शब्द)।",
+      "min_words_per_minute": 45,
+      "max_words_per_minute": 60,
+      "target_wpm": 45,
+      "accuracy_target_pct": 90,
+      "comprehension_target_ratio": "3/4",
+      "source_label": "NIPUN Lakshya (Grade 2); UP Basic Shiksha H206",
+      "explanation_en": "NIPUN target table specifies 45-60 wpm. UP state guideline specifies at least 45 wpm.",
+      "explanation_hi": "निपुण लक्ष्य के अनुसार 45-60 शब्द प्रति मिनट। उत्तर प्रदेश निर्देशानुसार न्यूनतम 45 शब्द।"
+    },
+    "3": {
+      "grade": 3,
+      "has_official_speed_target": true,
+      "official_target_text_en": "At least 60 correct words per minute with comprehension (answers at least 3 out of 4 questions correctly). FLS 2022 meets band: 35-54 wpm (Hindi).",
+      "official_target_text_hi": "कम से कम 60 शब्द प्रति मिनट समझ के साथ (4 में से 3 प्रश्नों का सही उत्तर)। FLS 2022 स्तर: 35-54 शब्द प्रति मिनट (हिंदी)।",
+      "min_words_per_minute": 60,
+      "max_words_per_minute": 90,
+      "target_wpm": 60,
+      "fls_meets_min": 35,
+      "fls_meets_max": 54,
+      "accuracy_target_pct": 90,
+      "comprehension_target_ratio": "3/4",
+      "source_label": "NIPUN Lakshya Grade 3; NCERT FLS 2022; UP H306, H308",
+      "explanation_en": "National NIPUN benchmark is 60+ cwpm with comprehension. NCERT FLS 2022 benchmark categorizes 35 to 54 cwpm in Hindi as 'Meets global proficiency'. Both standards are clearly displayed.",
+      "explanation_hi": "राष्ट्रीय निपुण लक्ष्य 60+ शब्द/मिनट समझ के साथ है। एनसीईआरटी FLS 2022 के अनुसार 35 से 54 शब्द/मिनट 'मानक के अनुरूप' श्रेणी में आता है।"
+    },
+    "4": {
+      "grade": 4,
+      "has_official_speed_target": false,
+      "official_target_text_en": "Reads age-appropriate narrative and informative texts with comprehension and self-correction.",
+      "official_target_text_hi": "कक्षा स्तर के गद्यांश को समझ के साथ और विराम चिह्नों का ध्यान रखते हुए पढ़ता है।",
+      "min_words_per_minute": null,
+      "max_words_per_minute": null,
+      "target_wpm": null,
+      "accuracy_target_pct": 92,
+      "comprehension_target_ratio": "3/4",
+      "source_label": "NCERT Learning Outcomes Elementary Stage (2017)",
+      "explanation_en": "No official numerical speed number in government guidelines for Class 4. Evaluated against child's baseline and comprehension.",
+      "explanation_hi": "कक्षा 4 के लिए कोई आधिकारिक गति संख्या निर्धारित नहीं है। प्रगति की तुलना बच्चे के पुराने रिकॉर्ड से की जाती है।"
+    },
+    "5": {
+      "grade": 5,
+      "has_official_speed_target": false,
+      "official_target_text_en": "Reads diverse texts with critical thinking, inference, and vocabulary grasp.",
+      "official_target_text_hi": "विविध पाठ्य सामग्री को पढ़कर मुख्य विचार और निष्कर्ष निकालता है।",
+      "min_words_per_minute": null,
+      "max_words_per_minute": null,
+      "target_wpm": null,
+      "accuracy_target_pct": 95,
+      "comprehension_target_ratio": "3/4",
+      "source_label": "NCERT Learning Outcomes Elementary Stage (2017)",
+      "explanation_en": "No official numerical speed target for Class 5. Progress is compared with the child's own earlier checks.",
+      "explanation_hi": "कक्षा 5 के लिए कोई आधिकारिक गति संख्या नहीं है। बच्चे की प्रगति की तुलना स्वयं के पिछले मूल्यांकन से होती है।"
+    }
+  }
+}

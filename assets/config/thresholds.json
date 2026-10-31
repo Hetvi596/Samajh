@@ -1,0 +1,187 @@
+{
+  "version": "0.3.0",
+  "status": "provisional",
+  "note": "All thresholds, levels, weights and timings are provisional Samajh choices, not official standards, and are to be calibrated with teachers in the pilot.",
+  "noise": {
+    "check_duration_seconds": 3,
+    "max_ambient_amplitude_ratio": 0.25,
+    "warning_message_en": "The room is too noisy. Please move to a quieter corner for an accurate check.",
+    "warning_message_hi": "कमरे में बहुत शोर है। कृपया शांत जगह पर जाएं ताकि जांच सही हो सके।"
+  },
+  "security": {
+    "passcode_length": 6,
+    "auto_lock_seconds": 120,
+    "max_attempts_before_backoff": 3,
+    "initial_backoff_seconds": 30,
+    "backoff_multiplier": 2,
+    "max_backoff_seconds": 300,
+    "pbkdf2_iterations": 10000
+  },
+  "retention": {
+    "audio_retention_hours": 24,
+    "delete_audio_on_marking_save": true
+  },
+  "scoring": {
+    "accuracy_benchmark_ratio": 0.9,
+    "class3_comprehension_pass_ratio": 0.75,
+    "class2_comprehension_pass_ratio": 0.66,
+    "general_comprehension_pass_ratio": 0.7,
+    "dictation_item_count": 5,
+    "max_timer_cap_seconds": 300,
+    "lead_in_trim_seconds": 1.0,
+    "correct_first_try": 1.0,
+    "wrong_to_right": 0.75,
+    "right_to_wrong": 0.0,
+    "three_plus_changes_multiplier": 0.5,
+    "fast_tap_flag_ms": 1000,
+    "skip_is_neutral": true
+  },
+  "word_check_levels": {
+    "1": {
+      "level": 1,
+      "name_en": "Sound & Word Recognition",
+      "name_hi": "ध्वनि व शब्द पहचान",
+      "min_items": 3,
+      "max_items": 4,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 5000,
+      "status": "provisional",
+      "items": 3
+    },
+    "2": {
+      "level": 2,
+      "name_en": "Spelling & Matra Choice",
+      "name_hi": "वर्तनी व मात्रा चयन",
+      "min_items": 3,
+      "max_items": 4,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 6000,
+      "status": "provisional",
+      "items": 3
+    },
+    "3": {
+      "level": 3,
+      "name_en": "Sentence Level & Writing Position",
+      "name_hi": "वाक्य स्तर व लेखन स्थिति",
+      "min_items": 3,
+      "max_items": 4,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 8000,
+      "status": "provisional",
+      "items": 3
+    },
+    "4": {
+      "level": 4,
+      "name_en": "Meaning & Inference",
+      "name_hi": "अर्थ व अनुमान",
+      "min_items": 3,
+      "max_items": 4,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 10000,
+      "status": "provisional",
+      "items": 3
+    }
+  },
+  "groups": {
+    "group_1_on_track": {
+      "code": "G1",
+      "name_en": "On track",
+      "name_hi": "सही गति और समझ",
+      "meaning_en": "Reads accurately and understands the text well.",
+      "meaning_hi": "सटीक रूप से पढ़ता है और कहानी को अच्छी तरह समझता है।"
+    },
+    "group_2_understands_needs_reading": {
+      "code": "G2",
+      "name_en": "Understands, needs help reading words",
+      "name_hi": "समझता है, शब्द पढ़ने में मदद चाहिए",
+      "meaning_en": "Understands the story when read or heard, but decoding holds them back.",
+      "meaning_hi": "कहानी समझ में आती है, लेकिन अक्षरों और मात्राओं को पहचानने में समय लगता है।"
+    },
+    "group_3_reads_needs_understanding": {
+      "code": "G3",
+      "name_en": "Reads words, needs help understanding",
+      "name_hi": "शब्द पढ़ता है, समझ में मदद चाहिए",
+      "meaning_en": "Decodes words accurately but misses the why and how.",
+      "meaning_hi": "अक्षर सही पढ़ता है, लेकिन क्यों और कैसे वाले सवालों में अटकता है।"
+    },
+    "group_4_needs_help_both": {
+      "code": "G4",
+      "name_en": "Needs help with both",
+      "name_hi": "पढ़ने और समझने दोनों में मदद चाहिए",
+      "meaning_en": "Needs focused practice in both word decoding and story comprehension.",
+      "meaning_hi": "शब्द पहचान और कहानी की समझ दोनों पर एक साथ काम करने की आवश्यकता है।"
+    }
+  },
+  "weighted_marking": {
+    "status": "provisional",
+    "explanation_en": "Marks for an answer = credit (1 right first time, 0.75 corrected to right, half again for 3+ changes) x level weight x time factor. Time factor is 1 up to the expected time and falls in a straight line to 0.5 at 3x the expected time.",
+    "explanation_hi": "उत्तर के अंक = श्रेय (पहली बार सही 1, सुधारकर सही 0.75, 3 से अधिक बदलाव पर आधा) x स्तर का भार x समय गुणक। अपेक्षित समय तक समय गुणक 1 है, फिर 3 गुना समय पर 0.5 तक घटता है।",
+    "level_weights": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "time_decay_end_multiple": 3.0,
+    "time_decay_floor": 0.5,
+    "promotion_uses_right_answers_only": true,
+    "start_level": 1,
+    "stop_at_first_level_not_passed": true
+  },
+  "typing_levels": {
+    "1": {
+      "level": 1,
+      "name_en": "Simple words",
+      "name_hi": "सरल शब्द",
+      "items": 2,
+      "min_items": 2,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 20000,
+      "status": "provisional"
+    },
+    "2": {
+      "level": 2,
+      "name_en": "Words with matras",
+      "name_hi": "मात्रा वाले शब्द",
+      "items": 2,
+      "min_items": 2,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 30000,
+      "status": "provisional"
+    },
+    "3": {
+      "level": 3,
+      "name_en": "Half letters and bindu",
+      "name_hi": "आधे अक्षर और बिंदु",
+      "items": 2,
+      "min_items": 2,
+      "promotion_threshold": 0.66,
+      "expected_time_ms": 40000,
+      "status": "provisional"
+    }
+  },
+  "question_levels": {
+    "status": "provisional",
+    "type_to_level": {
+      "fact": 1,
+      "word_meaning": 2,
+      "why_how": 3,
+      "cause_effect": 3,
+      "main_idea": 4
+    },
+    "pass_ratio": 0.5,
+    "expected_time_ms": 30000
+  },
+  "self_rating": {
+    "status": "provisional",
+    "after": [
+      "reading_aloud",
+      "each_word_check_item",
+      "each_typed_word",
+      "each_teacher_question"
+    ],
+    "shown_to_child": false,
+    "note": "The child's thumbs up or down is shown only to the teacher, beside the real result."
+  },
+  "question_count_note": "Shorter checks so children do not tire: 3 items per word check level (pass 2 of 3) and 2 words per typing level (pass both). Provisional."
+}

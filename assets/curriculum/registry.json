@@ -1,0 +1,448 @@
+{
+  "version": "1.0",
+  "curricula": [
+    {
+      "id": "ncert_cbse",
+      "name_en": "NCERT / CBSE",
+      "name_hi": "एनसीईआरटी / सीबीएसई",
+      "description_en": "National curriculum aligned with NCF-FS 2022 and NCF-SE 2023.",
+      "description_hi": "राष्ट्रीय पाठ्यचर्या रूपरेखा 2022 और 2023 के अनुरूप।",
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "up",
+      "name_en": "Uttar Pradesh Basic Shiksha",
+      "name_hi": "उत्तर प्रदेश बेसिक शिक्षा परिषद",
+      "description_en": "UP SCERT curriculum and NIPUN UP tables.",
+      "description_hi": "उत्तर प्रदेश बेसिक शिक्षा विभाग निपुण तालिका आधारित।",
+      "languages": [
+        "hi"
+      ],
+      "verification_status": "partially_verified",
+      "verification_note": "Class 3 Veena verified; Classes 1, 2, 4, 5 textbook titles are unverified pending UP SCERT portal access."
+    },
+    {
+      "id": "rajasthan",
+      "name_en": "Rajasthan RSCERT",
+      "name_hi": "राजस्थान आरएससीईआरटी उदयपुर",
+      "description_en": "RSCERT Udaipur curriculum and Hindi teacher guides (2025).",
+      "description_hi": "आरएससीईआरटी उदयपुर द्वारा निर्धारित पाठ्यपुस्तकें और शिक्षक संदर्शिका।",
+      "languages": [
+        "hi"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "school_own",
+      "name_en": "School's Own Curriculum",
+      "name_hi": "विद्यालय का अपना पाठ्यक्रम",
+      "description_en": "For independent, state, or private schools following custom materials.",
+      "description_hi": "निजी या अन्य विद्यालयों के लिए जो स्वयं की पाठ्य सामग्री अपनाते हैं।",
+      "languages": [
+        "hi",
+        "en",
+        "mr"
+      ],
+      "verification_status": "custom"
+    }
+  ],
+  "textbooks": [
+    {
+      "curriculum_id": "ncert_cbse",
+      "grade": 1,
+      "subject": "hindi",
+      "title": "सारंगी (भाग-1)",
+      "publisher": "NCERT (Reprint 2026-27)",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "मीना का परिवार",
+          "page": 2
+        },
+        {
+          "number": 2,
+          "title": "दादा-दादी",
+          "page": 8
+        },
+        {
+          "number": 3,
+          "title": "रीना का दिन",
+          "page": 11
+        },
+        {
+          "number": 4,
+          "title": "रानी भी",
+          "page": 16
+        },
+        {
+          "number": 5,
+          "title": "मिठाई",
+          "page": 28
+        }
+      ],
+      "units": [
+        "परिवार",
+        "जीव-जगत",
+        "हमारा खान-पान",
+        "त्योहार और मेले",
+        "हरी-भरी दुनिया"
+      ],
+      "verified_on": "2026-10-31",
+      "verified_from": "NCERT contents page, https://ncert.nic.in/textbook/pdf/ahsr1ps.pdf (Reprint 2026-27)"
+    },
+    {
+      "curriculum_id": "ncert_cbse",
+      "grade": 2,
+      "subject": "hindi",
+      "title": "सारंगी (भाग-2)",
+      "publisher": "NCERT (Reprint 2026-27)",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "नीमा की दादी",
+          "page": 2
+        },
+        {
+          "number": 2,
+          "title": "घर",
+          "page": 7
+        },
+        {
+          "number": 3,
+          "title": "माला की चाँदी की पायल",
+          "page": 9
+        },
+        {
+          "number": 4,
+          "title": "माँ",
+          "page": 14
+        },
+        {
+          "number": 5,
+          "title": "थाथू और मैं",
+          "page": 16
+        }
+      ],
+      "units": [
+        "परिवार",
+        "रंग ही रंग",
+        "हरी-भरी धरती",
+        "मित्रता",
+        "आकाश"
+      ],
+      "verified_on": "2026-10-31",
+      "verified_from": "NCERT contents page, https://ncert.nic.in/textbook/pdf/bhsr1ps.pdf (Reprint 2026-27)"
+    },
+    {
+      "curriculum_id": "ncert_cbse",
+      "grade": 3,
+      "subject": "hindi",
+      "title": "वीणा (भाग-1)",
+      "publisher": "NCERT (Reprint 2026-27)",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "सीखो",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "चींटी",
+          "page": 9
+        },
+        {
+          "number": 3,
+          "title": "कितने पैर?",
+          "page": 14
+        },
+        {
+          "number": 4,
+          "title": "बया हमारी चिड़िया रानी!",
+          "page": 25
+        },
+        {
+          "number": 5,
+          "title": "आम का पेड़",
+          "page": 33
+        }
+      ],
+      "units": [
+        "हमारा पर्यावरण",
+        "हमारे मित्र",
+        "आओ खेलें",
+        "अपना-अपना काम",
+        "हमारा देश"
+      ],
+      "verified_on": "2026-10-31",
+      "verified_from": "NCERT contents page, https://ncert.nic.in/textbook/pdf/chve1ps.pdf (Reprint 2026-27)"
+    },
+    {
+      "curriculum_id": "ncert_cbse",
+      "grade": 4,
+      "subject": "hindi",
+      "title": "वीणा (भाग-2)",
+      "publisher": "NCERT (2024-25)",
+      "verification": "unverified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "मन के भोले-भाले बादल",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "जैसा सवाल वैसा जवाब",
+          "page": 6
+        },
+        {
+          "number": 3,
+          "title": "किरमिच की गेंद",
+          "page": 12
+        },
+        {
+          "number": 4,
+          "title": "पापा जब बच्चे थे",
+          "page": 20
+        }
+      ],
+      "verification_note": "Chapter list not checked against the NCERT contents page; the Class 1-3 lists in this file had errors."
+    },
+    {
+      "curriculum_id": "ncert_cbse",
+      "grade": 5,
+      "subject": "hindi",
+      "title": "वीणा (भाग-3)",
+      "publisher": "NCERT (2024-25)",
+      "verification": "unverified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "राख की रस्सी",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "फसलों के त्योहार",
+          "page": 7
+        },
+        {
+          "number": 3,
+          "title": "खिलौनेवाला",
+          "page": 15
+        },
+        {
+          "number": 4,
+          "title": "नन्हा फनकार",
+          "page": 22
+        }
+      ],
+      "verification_note": "Chapter list not checked against the NCERT contents page; the Class 1-3 lists in this file had errors."
+    },
+    {
+      "curriculum_id": "up",
+      "grade": 3,
+      "subject": "hindi",
+      "title": "वीणा (भाग-1, उप्र संस्करण)",
+      "publisher": "बेसिक शिक्षा परिषद उप्र (2025-26)",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "प्रार्थना",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "मुर्गा और लोमड़ी",
+          "page": 5
+        },
+        {
+          "number": 3,
+          "title": "गिलहरी का घर",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "curriculum_id": "rajasthan",
+      "grade": 1,
+      "subject": "hindi",
+      "title": "नन्हे कदम भाग-1",
+      "publisher": "RSCERT उदयपुर",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "मेरा घर",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "पतंग",
+          "page": 8
+        },
+        {
+          "number": 3,
+          "title": "मेले की सैर",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "curriculum_id": "rajasthan",
+      "grade": 2,
+      "subject": "hindi",
+      "title": "नन्हे कदम भाग-2",
+      "publisher": "RSCERT उदयपुर",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "सूरज आया",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "भालू ने खेली फुटबॉल",
+          "page": 7
+        },
+        {
+          "number": 3,
+          "title": "म्याऊं म्याऊं",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "curriculum_id": "rajasthan",
+      "grade": 3,
+      "subject": "hindi",
+      "title": "हिंदी सुमन भाग-1",
+      "publisher": "RSCERT उदयपुर",
+      "verification": "verified",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "देश हमारा",
+          "page": 1
+        },
+        {
+          "number": 2,
+          "title": "मीठे बोल",
+          "page": 6
+        },
+        {
+          "number": 3,
+          "title": "गिलहरी",
+          "page": 12
+        }
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    {
+      "code": "H101",
+      "grade": 1,
+      "skill": "listening",
+      "description_hi": "बातचीत में ध्यानपूर्वक सुनते हैं और अपनी प्रतिक्रिया देते हैं।"
+    },
+    {
+      "code": "H102",
+      "grade": 1,
+      "skill": "decoding",
+      "description_hi": "सरल वर्णों और बिना मात्रा वाले 2-3 अक्षरी शब्दों को पहचानते हैं।"
+    },
+    {
+      "code": "H103",
+      "grade": 1,
+      "skill": "reading",
+      "description_hi": "4-5 सरल शब्दों के छोटे वाक्यों को पढ़ते हैं।"
+    },
+    {
+      "code": "H104",
+      "grade": 1,
+      "skill": "writing",
+      "description_hi": "सुने हुए परिचित शब्दों को लिखते हैं (श्रुतलेख)।"
+    },
+    {
+      "code": "H201",
+      "grade": 2,
+      "skill": "decoding",
+      "description_hi": "आ, इ, ई, उ, ऊ आदि मुख्य मात्राओं से बने शब्दों को पहचानते हैं।"
+    },
+    {
+      "code": "H206",
+      "grade": 2,
+      "skill": "fluency",
+      "description_hi": "45 से 60 शब्द प्रति मिनट की गति से प्रवाहपूर्ण पढ़ते हैं।"
+    },
+    {
+      "code": "H208",
+      "grade": 2,
+      "skill": "comprehension",
+      "description_hi": "पढ़ी गई छोटी कहानी के मुख्य पात्र और घटनाओं को बताते हैं।"
+    },
+    {
+      "code": "H210",
+      "grade": 2,
+      "skill": "writing",
+      "description_hi": "मात्रा वाले 5 परिचित शब्दों का सही श्रुतलेख लिखते हैं।"
+    },
+    {
+      "code": "H301",
+      "grade": 3,
+      "skill": "decoding",
+      "description_hi": "संयुक्त अक्षरों (क्य, प्र, स्त आदि) और अनुस्वार-चंद्रबिंदु युक्त शब्दों को सही पढ़ते हैं।"
+    },
+    {
+      "code": "H306",
+      "grade": 3,
+      "skill": "fluency",
+      "description_hi": "कम से कम 60 शब्द प्रति मिनट की गति से सही उच्चारण के साथ पढ़ते हैं।"
+    },
+    {
+      "code": "H308",
+      "grade": 3,
+      "skill": "comprehension",
+      "description_hi": "कहानी पढ़कर 4 में से कम से कम 3 प्रश्नों (तथ्य, शब्द अर्थ, कारण-प्रभाव) का सही उत्तर देते हैं।"
+    },
+    {
+      "code": "H312",
+      "grade": 3,
+      "skill": "writing",
+      "description_hi": "सयुंक्ताक्षर और मात्राओं वाले 5 शब्दों का श्रुतलेख सही लिखते हैं।"
+    },
+    {
+      "code": "H401",
+      "grade": 4,
+      "skill": "reading",
+      "description_hi": "विविध प्रकार के गद्यांश को उचित आरोह-अवरोह के साथ पढ़ते हैं।"
+    },
+    {
+      "code": "H405",
+      "grade": 4,
+      "skill": "comprehension",
+      "description_hi": "पाठ में आए नए शब्दों के अर्थ संदर्भ से समझते हैं।"
+    },
+    {
+      "code": "H501",
+      "grade": 5,
+      "skill": "reading",
+      "description_hi": "कक्षा स्तर के अपठित गद्यांश को धाराप्रवाह और समझ के साथ पढ़ते हैं।"
+    },
+    {
+      "code": "H506",
+      "grade": 5,
+      "skill": "critical_thinking",
+      "description_hi": "पाठ की घटनाओं और पात्रों के व्यवहार पर अपनी राय व्यक्त करते हैं।"
+    }
+  ],
+  "learning_outcomes_note": "The H-codes below are Uttar Pradesh state codes (see docs/CURRICULUM_SOURCE_REGISTER.md), not NCERT codes; they were not re-checked against the UP documents. Checked outcomes for Hindi Classes 1-3 are in hindi_outcomes_g1_3.json."
+}

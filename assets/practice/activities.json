@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "total_activities": 14,
+  "review_status": "pending_teacher_review",
+  "activities": [
+    {
+      "id": "act_01",
+      "target_need": "matra",
+      "title_en": "Short and Long Vowel Sound Match",
+      "title_hi": "छोटी और बड़ी मात्रा का खेल",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2",
+        "G4"
+      ],
+      "instructions_en": "Teacher writes minimal word pairs (e.g. दिन/दीन, कुल/कूल, मिल/मील) on the board. Children read aloud and tap the desk when hearing the long vowel.",
+      "instructions_hi": "शिक्षक श्यामपट्ट पर मात्रा युग्म (जैसे दिन/दीन, कुल/कूल, मिल/मील) लिखते हैं। बच्चे जोर से पढ़ते हैं और लंबी मात्रा पर मेज थपथपाते हैं।",
+      "home_activity_en": "Find 3 objects at home that have an 'ee' (ई) sound in their Hindi names.",
+      "home_activity_hi": "घर पर ऐसी 3 वस्तुएं खोजें जिनके नाम में बड़ी 'ई' की मात्रा आती हो (जैसे थाली, चाबी)।"
+    },
+    {
+      "id": "act_02",
+      "target_need": "conjunct",
+      "title_en": "Joined Letter Hunt",
+      "title_hi": "संयुक्ताक्षर खोजो और बोलो",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2",
+        "G4"
+      ],
+      "instructions_en": "Children find letters joined by halant (क्य, प्र, स्त, त्र) on flash cards, pronounce the blend slowly, then say the full word.",
+      "instructions_hi": "फ्लैश कार्ड्स पर आधे अक्षर वाले शब्द (जैसे क्या, पत्ता, पुस्तक, मित्र) खोजें और धीरे-धीरे बोलकर अभ्यास करें।",
+      "home_activity_en": "Ask parents to tell 2 words with half-letters and write them in the notebook.",
+      "home_activity_hi": "माता-पिता से आधे अक्षर वाले दो शब्द पूछकर कॉपी में लिखें।"
+    },
+    {
+      "id": "act_03",
+      "target_need": "bindu",
+      "title_en": "Nasal Dot or Moon: Bindu vs Chandrabindu",
+      "title_hi": "बिंदु और चंद्रबिंदु की पहचान",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2"
+      ],
+      "instructions_en": "Practice nasalization difference: रंग, पतंग, गेंद (bindu) vs चाँद, आँख, गाँव (chandrabindu). Feel the nose vibration while speaking.",
+      "instructions_hi": "बिंदु (रंग, गेंद) और चंद्रबिंदु (चाँद, आँख) वाले शब्दों का अंतर नाक पर उंगली रखकर महसूस करके बोलें।",
+      "home_activity_en": "Draw a moon and a dot in your notebook and write 2 words under each.",
+      "home_activity_hi": "कॉपी में एक चाँद और एक बिंदु बनाकर दोनों के नीचे दो-दो शब्द लिखें।"
+    },
+    {
+      "id": "act_04",
+      "target_need": "word_reading",
+      "title_en": "Rapid Decodable Word Roll",
+      "title_hi": "द्रुत गति शब्द पठन",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2",
+        "G4"
+      ],
+      "instructions_en": "Flash card pyramid: Children take turns reading cards quickly without sounding out individual aksharas letter by letter.",
+      "instructions_hi": "शब्द कार्ड का पिरामिड: बच्चे एक-एक अक्षर अलग किए बिना पूरे शब्द को एक नज़र में पढ़ने का अभ्यास करते हैं।",
+      "home_activity_en": "Read the 5 practice words printed on your worksheet to an older family member.",
+      "home_activity_hi": "अपनी वर्कशीट पर छपे 5 अभ्यास शब्द घर के किसी बड़े सदस्य को पढ़कर सुनाएं।"
+    },
+    {
+      "id": "act_05",
+      "target_need": "fluency",
+      "title_en": "Echo and Paired Reading",
+      "title_hi": "साथ-साथ और प्रतिध्वनि पठन",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G1",
+        "G3"
+      ],
+      "instructions_en": "Teacher reads one sentence with natural expression and rhythm; children echo read together, then read in pairs taking turns.",
+      "instructions_hi": "शिक्षक उचित लय और भाव के साथ एक वाक्य पढ़ते हैं; बच्चे उसे दोहराते हैं, फिर जोड़ी बनाकर एक-दूसरे को सुनाते हैं।",
+      "home_activity_en": "Read the short story on your practice sheet to a younger sibling or parent.",
+      "home_activity_hi": "अभ्यास पत्रक की छोटी कहानी अपने छोटे भाई-बहन या माता-पिता को सुनाएं।"
+    },
+    {
+      "id": "act_06",
+      "target_need": "facts",
+      "title_en": "Detective Story Search",
+      "title_hi": "कहानी का जासूस: तथ्य खोजो",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G3",
+        "G4"
+      ],
+      "instructions_en": "After reading a 3-sentence passage, teacher asks who, what, and where questions. Children point to the exact word in the text with a finger.",
+      "instructions_hi": "गद्यांश पढ़ने के बाद 'कौन', 'कहाँ' और 'क्या' वाले सवाल पूछें। बच्चे उस शब्द पर अपनी उंगली रखकर उत्तर दिखाएं।",
+      "home_activity_en": "Tell your family who was in the story you read in class today.",
+      "home_activity_hi": "घर पर बताएं कि आज कक्षा में पढ़ी कहानी में कौन-कौन से पात्र थे।"
+    },
+    {
+      "id": "act_07",
+      "target_need": "why_how",
+      "title_en": "The 'Why and How' Chain",
+      "title_hi": "क्यों और कैसे की माला",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G3"
+      ],
+      "instructions_en": "Teacher stops mid-story and asks: 'Why did the crow drop pebbles?' Children answer using 'Because... (क्योंकि...)'.",
+      "instructions_hi": "कहानी के बीच रुककर पूछें: 'कौवे ने कंकड़ क्यों डाले?' बच्चे 'क्योंकि...' शब्द जोड़कर कारण स्पष्ट करें।",
+      "home_activity_en": "Tell someone at home why it is important to save drinking water.",
+      "home_activity_hi": "घर पर किसी को समझाएं कि पीने का पानी बचाना क्यों जरूरी है।"
+    },
+    {
+      "id": "act_08",
+      "target_need": "word_meaning",
+      "title_en": "Word in Action",
+      "title_hi": "शब्द और उसका अभिनय",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G3",
+        "G4"
+      ],
+      "instructions_en": "Teacher introduces an unfamiliar word (e.g. अनमोल, बलवान, क्षमा). Children act it out or use it in their own classroom sentence.",
+      "instructions_hi": "नया शब्द (जैसे बलवान, अनमोल, चंचल) चुनें। बच्चे उसका अभिनय करें या अपनी भाषा में नया वाक्य बनाएं।",
+      "home_activity_en": "Ask grandparents the meaning of an old word and tell it in school tomorrow.",
+      "home_activity_hi": "दादा-दादी से किसी पुराने शब्द का अर्थ पूछें और कल कक्षा में साझा करें।"
+    },
+    {
+      "id": "act_09",
+      "target_need": "spelling",
+      "title_en": "Five-Word Notebook Dictation",
+      "title_hi": "पाँच शब्दों का श्रुतलेख",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2",
+        "G4"
+      ],
+      "instructions_en": "Teacher calls out 5 words from the child's own misread words bank. Child writes carefully, then self-checks against the flashcard.",
+      "instructions_hi": "शिक्षक बच्चे के गलत पढ़े शब्दों में से 5 शब्द बोलते हैं। बच्चा कॉपी में लिखता है और कार्ड से मिलान करता है।",
+      "home_activity_en": "Write the 5 dictation words neatly three times in your home notebook.",
+      "home_activity_hi": "घर की कॉपी में इन 5 शब्दों को तीन बार सुंदर लिखावट में लिखें।"
+    },
+    {
+      "id": "act_10",
+      "target_need": "listening",
+      "title_en": "Listen and Retell Circle",
+      "title_hi": "सुनो और अपनी भाषा में कहो",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2",
+        "G4"
+      ],
+      "instructions_en": "Teacher reads aloud a 1-minute engaging story without showing text. Children retell the story points in their home language or school language.",
+      "instructions_hi": "शिक्षक बिना किताब दिखाए एक छोटी कहानी सुनाते हैं। बच्चे अपनी घर की भाषा या हिंदी में उसे दोबारा सुनाते हैं।",
+      "home_activity_en": "Listen to a bedtime story from parents and retell the beginning, middle, and end.",
+      "home_activity_hi": "रात को सोने से पहले माता-पिता से कहानी सुनें और बताएं कि शुरुआत और अंत में क्या हुआ।"
+    },
+    {
+      "id": "act_11",
+      "target_need": "home_engagement",
+      "title_en": "Daily Family Conversation",
+      "title_hi": "परिवार के साथ शाम की बातचीत",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G1",
+        "G2",
+        "G3",
+        "G4"
+      ],
+      "instructions_en": "Home activity: The child shares one interesting fact or word learned in school today with their parents.",
+      "instructions_hi": "घर की गतिविधि: बच्चा आज स्कूल में सीखा कोई एक नया शब्द या ज्ञान अपने माता-पिता के साथ साझा करता है।",
+      "home_activity_en": "Tell your parents what Kiran the mascot did today in school.",
+      "home_activity_hi": "माता-पिता को बताएं कि आज स्कूल में आपने क्या नया पढ़ा।"
+    },
+    {
+      "id": "act_12",
+      "target_need": "akshara_awareness",
+      "title_en": "Syllable Clapping Game",
+      "title_hi": "ताली बजाकर अक्षर गिनो",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G2",
+        "G4"
+      ],
+      "instructions_en": "Children break words into akshara beats by clapping (e.g., पा-नी = 2 claps, कि-ता-ब = 3 claps).",
+      "instructions_hi": "शब्दों को अक्षरों में तोड़कर ताली बजाएं (जैसे: पा-नी = 2 ताली, कि-ता-ब = 3 ताली)।",
+      "home_activity_en": "Clap out the syllables of all family members' names at dinner.",
+      "home_activity_hi": "रात के भोजन के समय परिवार के सभी सदस्यों के नामों पर ताली बजाकर अक्षर गिनें।"
+    },
+    {
+      "id": "act_13",
+      "target_need": "sentence_building",
+      "title_en": "Sentence Train",
+      "title_hi": "वाक्य रेलगाड़ी",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G3",
+        "G4"
+      ],
+      "instructions_en": "Children arrange jumbled word cards into a meaningful grammatically correct sentence.",
+      "instructions_hi": "उलटे-पुलटे शब्द कार्ड्स को सही क्रम में लगाकर सार्थक वाक्य बनाएं।",
+      "home_activity_en": "Make a sentence using the words 'पेड़' and 'पानी' and tell your family.",
+      "home_activity_hi": "'पेड़' और 'पानी' शब्दों का प्रयोग करके एक वाक्य बनाएं और घर में सुनाएं।"
+    },
+    {
+      "id": "act_14",
+      "target_need": "expression",
+      "title_en": "Poem Recitation with Gestures",
+      "title_hi": "हाव-भाव के साथ कविता पाठ",
+      "duration_minutes": 10,
+      "group_codes": [
+        "G1",
+        "G3"
+      ],
+      "instructions_en": "Children recite a 4-line rhyming poem with facial expressions, body gestures, and voice modulation.",
+      "instructions_hi": "हाव-भाव और आवाज़ के उतार-चढ़ाव के साथ 4 पंक्तियों की लयबद्ध कविता सुनाएं।",
+      "home_activity_en": "Recite your favorite rhyme to family members before dinner.",
+      "home_activity_hi": "रात के खाने से पहले अपनी मनपसंद कविता परिवार को हाव-भाव के साथ सुनाएं।"
+    }
+  ]
+}

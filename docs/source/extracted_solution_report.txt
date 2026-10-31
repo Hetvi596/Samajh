@@ -1,0 +1,783 @@
+AI FOR FOUNDATIONAL LEARNING HACKATHON 2026
+Samajh
+Solution Report
+Features, app flow and design of a teacher-first reading check
+for Class 1 to 5 (Hindi and Marathi)
+Samajh means understanding.
+CHALLENGE AREA
+Learning-Level Visibility
+TEAM
+Runtime Terrors
+MEMBERS
+Mehul Jain, Hetvi Pala, Vedika Jadhav, Srushti Bagad
+INSTITUTION
+Vishwakarma Institute of Technology, Pune
+VERSION
+1.0 (draft)  ·  17 October 2026
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 2
+1. Summary
+Samajh is an Android app that a teacher uses to check how a child in Class 1 to 5 reads, what the child
+understands and how the child writes. It then tells the teacher what to teach next. It addresses the
+Learning-Level Visibility challenge: a speed score alone can rank a child who understood almost nothing
+above a child who understood the story but decodes slowly.
+This report does three things. It organises the team's 23 features into one flow that a teacher can follow. It
+adds 10 features that strengthen the solution: 6 core features and 4 that only work with internet. And it
+specifies how the app should look and behave so that it stays simple for a teacher who is checking children
+in a busy classroom.
+ 23
+ 10
+ 4
+ ~4 min
+features from the team list,
+ all kept
+ new features (6 core, 4
+ internet-only)
+ tabs in the whole app
+ to check one child
+Design principles
+Principle
+What it means in the app
+The teacher is the only user
+The teacher operates the app. The child only reads, talks and writes. There are no
+child-facing screens, accounts or games.
+One screen, one job
+The home screen has one main button. During a check, each screen shows one
+instruction with one large button.
+Offline first, better online
+Reading is scored on the phone. Anything that needs the cloud is saved and finished
+later, so the teacher never waits for a network.
+Explained and correctable
+Every result is shown in plain words, with the reason, and the teacher can correct a
+marking before it is saved.
+Every result ends in an
+action
+Each child gets a group, a next step and a practice sheet. The class gets a weekly plan.
+No result is only a number.
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 3
+2. How the app is organised
+The app follows the teacher's real day: set up once, open the app, check a child, review, hand out practice,
+and track progress. The six stages below are the same stages used to group the features in section 4.
+1
+Set up (once)
+• Sign in with OTP
+• Create class, add children
+• Mark consent, try the guided demo
+2
+Today (home)
+• See progress and to-do list
+• Tap 'Check next child'
+• Rechecks and waiting results shown
+3
+Check a child (~4 min)
+• Read aloud, tell it back, write
+• Voice guides every step
+• Pause or resume at any step
+4
+Review
+• Doubtful words highlighted
+• Correct a marking if needed
+• Save, open the next child
+5
+Plan and practice
+• Group and next step shown
+• Print the practice sheet
+• Weekly plan for each group
+6
+Track and share
+• Recheck after a few weeks
+• Early warnings, progress
+• Parent report; school view online
+Navigation: four tabs only
+Tab
+Purpose
+What is inside
+Today
+Home. What to do right
+now.
+Progress for the class, 'Check next child' button, short to-do list (rechecks due,
+sheets ready, results waiting for network).
+Class
+Children and groups.
+Roster with status of each child, four reading groups, common mistakes, early
+warnings, weekly plan. Tapping a child opens the child result.
+Practice
+Material for tomorrow.
+Practice sheets to print, weekly activities with tick-off, links to DIKSHA, NCERT
+and state resources (online).
+Reports
+Progress and sharing.
+Progress over time, parent reports and voice notes, school-level view for the
+head teacher (online), PDF export.
+Settings (language, PIN, backup, sync status) sit behind the profile icon at the top right, so they do not crowd the four tabs. The
+head teacher is a teacher with one extra view inside Reports. It is the same app, not a second app.
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 4
+3. Key screens
+Three screens carry most of the experience. They are shown as simple wireframes, not final visual design.
+Class 3 B
+● Synced
+21 of 32 checked
+Check next child
+Suggested today: 7 children
+To do
+Rechecks due
+3
+Practice sheets ready
+5
+Waiting for network
+2
+Today
+Class
+Practice
+Reports
+1  Today (home)
+Aarav S.
+Pause
+Step 1 of 4: Read aloud
+Noise: quiet enough
+Start
+Voice guide is speaking
+2  Check a child: read aloud
+‹  Aarav S., Class 3
+Checked today, 10:40 am
+Understands, slow to decode
+READING
+24 wpm
+target 35+
+UNDERSTANDING
+5 of 6
+story points
+Stuck on
+conjuncts
+long ee matra
+Writing: splits conjuncts
+NEXT STEP
+Decoding practice,
+10 minutes a day
+ Print practice sheet
+Something wrong? Correct a marking
+Today
+Class
+Practice
+Reports
+3  Child result
+Rules that keep the app simple
+ Home has one main action. 'Check next child' is the largest element. The rest of the screen is a short
+to-do list of at most three lines.
+ Plain words first, numbers second. The result screen leads with the group name and one next step.
+Speed, pause counts and confidence sit behind a 'details' tap.
+ Same words everywhere. 'Group', 'practice sheet' and 'recheck' mean the same thing on every screen.
+ Large targets, voice guidance. Buttons are large for use while standing, and the voice speaks each
+instruction in the child's language.
+ The network is never a blocker. If something needs internet, the app says 'Saved, will finish when
+online' and moves on.
+ Honest about doubt. When the app is unsure (noise, blurry photo), it says so and asks the teacher to
+confirm instead of guessing.
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 5
+4. Feature plan
+All 33 features are listed in the order a teacher meets them. Source shows whether a feature came from
+the team's list or is new in this report. Works shows whether it needs internet. Phase: P1 is the core build
+for the demo, P2 is added during the pilot window if time allows, P3 is the roadmap after the hackathon.
+A. Set up and home
+Goal: the teacher is ready to check the first child within five minutes.
+#
+Feature
+What it does
+Source
+Works
+Phase
+A1
+Teacher sign-in (OTP)
+Sign in once with mobile number and OTP. After that a
+4-digit PIN unlocks the app, even offline. Each teacher
+sees only their own classes.
+Team
+list
+Both
+P2
+A2
+Class setup and roster
+Create a class (grade, section, school language) and add
+children by typing or importing a list. Each child has a
+home language and a consent mark.
+New
+Offline
+P1
+A3
+Privacy and child
+safety
+A child can be checked only after parental consent is
+marked. Audio stays on the phone, photos are deleted
+after processing, names are blurred, data is encrypted.
+Team
+list
+Both
+P1
+A4
+Multilingual support
+Screens and voice instructions in Hindi, Marathi and
+English. Retells may mix Hindi and Marathi. Other
+languages use a 30-second teacher checklist.
+Team
+list
+Offline
+P1
+A5
+Today screen (home)
+One screen with progress ('21 of 32 checked'), one button
+'Check next child' and a short to-do list: rechecks due,
+sheets ready, results waiting for network. Suggests how
+many children to check today.
+New
+Offline
+P1
+A6
+Guided first check
+A 2-minute practice run with a sample child, so a new
+teacher learns the four steps before using the app on a
+real child.
+New
+Offline
+P2
+B. Check a child
+Goal: finish one child in about 4 minutes, with the teacher doing as little as possible.
+#
+Feature
+What it does
+Source
+Works
+Phase
+B1
+Adaptive passage
+selection
+Chooses a passage at the child's level. The first check
+starts slightly below grade, later checks start where the
+last one ended. An easier passage is offered if the child
+struggles early.
+Team
+list
+Offline
+P2
+B2
+Voice-guided
+instructions
+The app speaks each instruction in the child's language,
+so the teacher can stay with the child instead of reading
+prompts.
+Team
+list
+Offline
+P1
+B3
+Classroom noise
+detection
+Checks background noise before recording. If it is too
+loud, the app asks the teacher to move somewhere
+quieter. If they continue, the result is marked
+low-confidence.
+Team
+list
+Offline
+P1
+B4
+Read-aloud
+assessment
+The child reads a short passage for about a minute. The
+phone marks skipped, misread and self-corrected words,
+speed and pauses.
+Team
+list
+Offline
+P1
+B5
+Retell (comprehension
+check)
+The child tells the story back in Hindi, Marathi or a mix.
+The retell is scored against the story's main points (for
+example 5 of 6).
+Team
+list
+Both
+P1
+B6
+Dictation and
+handwriting
+The app reads out five words taken from the child's
+reading mistakes. The child writes them in a notebook
+and the teacher takes one photo. The handwriting is read
+and checked against the known words.
+Team
+list
+Both
+P1
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 6
+#
+Feature
+What it does
+Source
+Works
+Phase
+B7
+Listening check
+Only for a child who struggles with both reading and
+understanding: the app reads a short passage aloud and
+the child retells it. This separates a decoding problem
+from a language problem.
+New
+Both
+P2
+B8
+Pause and resume
+A check can be paused at any step and resumed later
+without starting again.
+Team
+list
+Offline
+P1
+B9
+One-tap next student
+After saving, one tap opens the next unchecked child.
+Team
+list
+Offline
+P1
+C. Review and results
+Goal: the teacher trusts the result and knows what it means.
+#
+Feature
+What it does
+Source
+Works
+Phase
+C1
+Teacher review and
+correction
+Before saving, words the app was unsure about are
+highlighted. The teacher can correct a marking, accept a
+regional pronunciation or retake a step.
+New
+Offline
+P1
+C2
+Mistake mapping
+Each error is broken into consonant, matra, conjunct,
+halant or anusvara, so the app can say 'long ee matra'
+instead of 'word wrong'.
+Team
+list
+Offline
+P1
+C3
+Automatic reading
+group
+Places each child in one of four groups using decoding
+(speed and accuracy) and understanding, shown in plain
+words with one next step.
+Team
+list
+Both
+P1
+D. Plan and practice
+Goal: tomorrow's lesson is ready without the teacher preparing material.
+#
+Feature
+What it does
+Source
+Works
+Phase
+D1
+Personalized practice
+worksheets
+A one-page sheet per child with a short passage and a
+writing task built around the sounds they are stuck on,
+set in familiar places such as a market or a village fair.
+Team
+list
+Both
+P1
+D2
+Practice material
+validation
+A rule-based checker confirms every word uses only
+letters the child has already learned. A passage that fails
+is rewritten before printing.
+Team
+list
+Both
+P1
+D3
+Weekly class plan
+Children with the same gap are grouped, each group gets
+a 10-minute activity, and the week fits on one printed
+page. The teacher ticks activities as done.
+New
+Offline
+P2
+D4
+Educational resource
+links
+Links each learning gap to matching DIKSHA, NCERT and
+state resources, where public links exist.
+Team
+list
+Online
+P3
+D5
+Progress stars
+Teacher-awarded stars for milestones (moving up a
+group, reaching the benchmark), printed on the child's
+sheet and a class chart. No game screens for children.
+Team
+list
+Offline
+P3
+E. Track the class
+Goal: see who is improving and who is falling behind, in time to act.
+#
+Feature
+What it does
+Source
+Works
+Phase
+E1
+Teacher dashboard
+Class view with reading groups, the most common
+mistakes (for example, conjuncts: 9 children) and the
+children who need extra support.
+Team
+list
+Offline
+P1
+E2
+Progress tracking
+Rechecks after a few weeks compare reading,
+understanding and writing with earlier results, so the
+teacher can see whether practice helped.
+Team
+list
+Offline
+P2
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 7
+#
+Feature
+What it does
+Source
+Works
+Phase
+E3
+Early-warning flags
+Flags children unlikely to reach the grade benchmark by
+March at their current pace, while there is still time to
+help.
+Team
+list
+Offline
+P2
+F. Share and cloud
+Goal: use the internet when it is there, without ever making the teacher wait for it.
+#
+Feature
+What it does
+Source
+Works
+Phase
+F1
+Catch-up queue
+When offline, retell and notebook-photo checks are saved
+on the phone and processed automatically when the
+network returns. Each child shows 'Saved' or 'Ready'.
+New
+Online
+P1
+F2
+Cloud backup and
+restore
+Results are backed up, so a lost or replaced phone does
+not lose a term's work. Signing in on a new phone
+restores the class.
+New
+Online
+P2
+F3
+Fresh passages and
+updates
+When online, the app downloads new validated passages,
+practice sheets and model updates, so the offline bank
+does not go stale.
+New
+Online
+P3
+F4
+Regional
+pronunciation library
+Pronunciations that teachers accept are collected as text
+(no audio, no names) and shared back as updates, so
+speech marking improves for each region.
+New
+Online
+P3
+F5
+Parent report and
+home activity
+A one-page report in simple words with one home
+activity. The teacher approves it before it is shared.
+Team
+list
+Both
+P2
+F6
+Voice-note parent
+report
+A short Hindi or Marathi voice version of the report for
+parents who do not read easily, sent by WhatsApp or
+SMS.
+Team
+list
+Online
+P3
+F7
+School-level
+dashboard
+Head teachers compare reading progress across classes.
+Only summary figures are shown, never individual audio
+or photos. Exportable as PDF.
+Team
+list
+Online
+P3
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 8
+5. What only works with internet
+Samajh stays fully usable offline, but it should get more useful when a connection exists. Four new features
+are built around that idea. Three features from the team's list also depend on internet: resource links (D4),
+voice-note sending (F6) and the school-level dashboard (F7).
+Feature
+Why it needs internet
+Benefit to teacher and child
+If offline
+F1 Catch-up
+queue
+Retell scoring,
+handwriting reading and
+fresh practice sheets use
+cloud AI.
+The teacher never repeats or waits on
+a check. Results arrive when the phone
+reconnects, for example on school
+Wi-Fi or at home.
+The check is still completed
+and saved. The reading score
+shows at once and the rest is
+marked 'waiting'.
+F2 Cloud backup
+and restore
+Needs cloud storage.
+A lost or replaced phone does not lose
+months of results. Progress tracking
+can run across the whole school year.
+An encrypted copy stays on
+the phone. A reminder to back
+up appears when online.
+F3 Fresh
+passages and
+updates
+Downloads new content
+and model updates.
+Children do not keep reading the same
+passages. New language packs and
+fixes reach every phone without
+reinstalling.
+The app uses the passages
+and sheets already
+downloaded.
+F4 Regional
+pronunciation
+library
+Collects and redistributes
+teacher corrections.
+Fewer false mistakes for children who
+speak a regional variant. Marking
+improves for each region as teachers
+accept pronunciations.
+The teacher's own corrections
+still apply on that phone.
+Design rule: no feature may block the teacher because internet is missing. Anything that needs the
+network is queued on the phone, shown as 'waiting', and finished automatically later.
+Offline and online behaviour side by side
+Area
+Without internet
+With internet
+Sign-in
+4-digit PIN after the first sign-in.
+OTP on first sign-in and on a new phone.
+Read-aloud scoring
+Full scoring on the phone: speed, accuracy,
+pauses, errors.
+Same. Results are also backed up.
+Retell
+Recorded and transcribed on the phone, then
+placed in the catch-up queue.
+Scored against the story's main points; result
+appears automatically.
+Handwriting
+Photo taken and stored encrypted. Teacher
+sees 'waiting'.
+Handwriting read and compared with the five
+expected words. Photo deleted afterwards.
+Reading group
+Reading result shows at once. Group is
+confirmed once the retell is scored.
+Group assigned automatically.
+Practice sheet
+Chosen from a stored bank of already validated
+sheets that match the child's gaps.
+A fresh passage is written for the child, then
+checked by the rule-based validator.
+Dashboard and
+warnings
+Built from the results on the phone.
+Same, using the backed-up history.
+Parent report
+The one-page report can be prepared.
+Voice note created and sent by WhatsApp or SMS
+after the teacher approves.
+Backup
+Encrypted local copy only.
+Cloud backup and restore.
+Resources and
+school view
+Not available.
+DIKSHA, NCERT and state links. School-level
+dashboard for the head teacher.
+Updates
+Uses downloaded passages and models.
+New passages, language packs and
+pronunciation updates download.
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 9
+6. Privacy and child safety
+The app handles recordings and photos of young children, so privacy is part of the design and not an add-on.
+These rules apply across all features.
+Area
+Rule
+Consent
+A child cannot be checked until a parent's consent is marked on the roster. The app records the
+mark; how consent is collected follows each school's process.
+Audio
+Recorded and transcribed on the phone. Audio is not uploaded. Only the text of a retell, without
+the child's name, is sent for scoring.
+Photos
+Names are blurred before upload. The photo is deleted once the words are read. Only the
+word-level result is kept.
+Storage
+Results are encrypted on the phone, in transit and in the cloud.
+Access
+OTP sign-in plus a PIN. A teacher sees only their own classes. A head teacher sees summary
+figures for the school, not individual audio or photos.
+Sharing with
+parents
+Nothing is sent until the teacher approves it. A report contains only that child's own result and one
+home activity.
+Deletion
+A teacher can delete a child's record, and it is removed from the backup too.
+A legal review against India's Digital Personal Data Protection Act, 2023, which has specific rules for children's data, should be
+done before any real-school rollout.
+7. Build priority and success measures
+Phase
+When
+Features
+P1 Core (18)
+Build and demo, up to
+1 Nov
+Class setup and roster, Privacy and child safety, Multilingual support, Today
+screen (home), Voice-guided instructions, Classroom noise detection,
+Read-aloud assessment, Retell (comprehension check), Dictation and
+handwriting, Pause and resume, One-tap next student, Teacher review and
+correction, Mistake mapping, Automatic reading group, Personalized
+practice worksheets, Practice material validation, Teacher dashboard,
+Catch-up queue
+P2 Add if time
+allows (9)
+Pilot window, 10 to 18
+Nov
+Teacher sign-in (OTP), Guided first check, Adaptive passage selection,
+Listening check, Weekly class plan, Progress tracking, Early-warning flags,
+Cloud backup and restore, Parent report and home activity
+P3 Roadmap (6)
+After the hackathon
+Educational resource links, Progress stars, Fresh passages and updates,
+Regional pronunciation library, Voice-note parent report, School-level
+dashboard
+P1 is a large set for a short build. If time runs short, the safest items to cut from P1 are the Today screen suggestions and the full
+teacher review screen, keeping only a simple 'correct this word' option. The reading, retell, handwriting, groups and practice
+sheet flow should not be cut.
+
+--- PAGE ---
+Samajh  ·  Solution Report
+Team Runtime Terrors
+Page 10
+How we will know it works
+Measure
+Target
+Source
+Agreement with a teacher's marking
+At least 90%
+Idea submission
+Time to check one child
+Under 5 minutes
+Idea submission
+Practice passages that pass the decodability
+check
+100%
+Idea submission
+Audio leaving the phone
+None
+Idea submission
+Runs on a phone with 2 to 3 GB RAM
+Yes, tested in pilot
+Idea submission
+A new teacher completes a first check without
+help
+Within 10 minutes of installing (to be
+validated)
+Proposed
+Checks lost when the phone is offline
+None
+Proposed
+Open questions to confirm
+ DIKSHA, NCERT and state resources: confirm what public links or APIs exist before promising deep
+integration.
+ Voice notes: choose a Hindi and Marathi text-to-speech option (for example from AI4Bharat or Bhashini)
+and test its quality.
+ Consent: confirm how schools collect parental consent so the roster mark matches real practice.
+ School accounts: decide how a head teacher is linked to the classes of other teachers.
+ Legal review: data-protection check for children's data before any pilot with real children.

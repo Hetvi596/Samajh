@@ -1,0 +1,302 @@
+Samajh  समझ
+Project report
+An offline Android app that helps Class 1 to 5 teachers check whether children understand what they read, and what to teach next
+Team Runtime Terrors, VIT Pune
+Status as of 21 October 2026 · App version 0.1.0 (test build)
+
+Contents
+Contents2
+1. Summary3
+2. Problem and approach3
+3. Government sources and class milestones3
+3.1 Documents read3
+3.2 Official reading-speed numbers4
+3.3 Textbooks by curriculum4
+4. What has been built5
+4.1 A check, step by step5
+4.2 Support groups5
+4.3 Practice and reports (M7)6
+4.4 Screenshots from the app6
+5. Architecture and technology8
+6. Privacy and security9
+7. Testing and quality9
+8. Known limitations9
+9. What is going to be built10
+10. Decisions and help needed from the team10
+11. Installing the test APK10
+
+Right-click the contents and choose Update Field if page numbers are missing.
+
+1. Summary
+Samajh lets one teacher, on one Android phone, run a four-minute reading check with a child and see reading and understanding as separate results, then get a practice plan. Six of ten milestones are complete and tested, the seventh is built, and a test APK is ready. All data so far is a fictional demo class: real children's data stays blocked until the privacy checklist and a legal review are done.
+Item
+Status on 21 Oct 2026
+Platform
+Flutter Android app (Android 8 and later), fully offline, English and Hindi
+Users
+The teacher, with a passcode-locked Teacher Mode; children use a locked Student Mode
+Curricula
+NCERT / CBSE, Uttar Pradesh, Rajasthan, or the school's own
+Done
+M1 to M6, plus class-wise government milestones
+In progress
+M7 practice and reports (built, unit-tested; screen tests written but not yet run)
+Still to build
+M8 privacy and consent workflow, M9 testing and performance, M10 signed release
+Automated tests
+184 passing at the last full run
+Data
+Demo class of 10 fictional children; real data blocked by design
+2. Problem and approach
+A speed score alone can rank a child who understood almost nothing above a child who understood the story but reads slowly. Teachers check reading by hand, rarely, and still have to guess what to teach. Samajh checks three things in one short session and keeps them apart:
+Reading aloud: accuracy and correct words per minute, marked word by word by the teacher from a recording.
+Understanding: typed questions (fact, word meaning, why and how, main idea) and an optional retell checklist.
+Word check: child-facing visual choice items (writing position on ruled notebook lines, spelling, sound recognition, meaning) completed by the child in Student Mode without teacher marking.
+Principles the app follows:
+The teacher is the only user. There are no child accounts, games, scores or rankings shown to children.
+Offline first. Core check flows and reports work completely without the internet; optional cloud backup is off by default.
+Every result is explained in plain words and names its source. Nothing is invented: no benchmark, chapter or number without an official source.
+Every result ends in a teaching action.
+Privacy by design: audio recordings are ephemeral and deleted after marking; zero photos, camera permissions, or OCR.
+3. Government sources and class milestones
+All learning goals and targets in the app come from official documents that were read directly. Where a document gives no number, the app says so instead of inventing one.
+3.1 Documents read
+Document
+Used for
+NCERT, Foundational Learning Study (FLS) 2022 benchmarking report
+Class 3 reading bands (Hindi "meets" 35 to 54 correct words per minute with comprehension; English 35 to 53); question types
+Ministry of Education, NIPUN Bharat Guidelines (2021)
+National targets (Lakshya) for Classes 1 to 3 and coded learning outcomes
+NCERT, Learning Outcomes at the Foundational Stage (2025)
+Year-by-year outcomes for Grades 1 and 2, including dictation
+NCERT, Learning Outcomes at the Elementary Stage (2017)
+Hindi outcomes for Classes 3 to 5
+NCF Foundational Stage 2022 and NCF School Education 2023
+Language curricular goals (CG-9 to CG-11; R1 CG-1 to CG-5)
+Basic Shiksha UP NIPUN tables; UP Class 3 teacher guide 2025-26
+UP codes H101 to H516, UP targets H206, H208, H306, H308
+RSCERT Udaipur Hindi teacher guides, Classes 1 to 5 (2025)
+Rajasthan textbooks, lesson titles and curricular goals
+NCERT textbook list 2025 and contents pages
+Sarangi (1, 2) and Veena (3 to 5) chapter lists with page numbers
+CBSE Circulars Acad-73/2024, Acad-12/2025, Acad-48/2025
+Which NCERT books CBSE schools use, and from when
+NCERT NEP Mandate Document (quotes NEP 2020)
+Foundational literacy by Grade 3 as the highest priority
+PIB backgrounder on the DPDP Rules 2025
+Children's data and consent (full gazette text still to be read by a legal reviewer)
+3.2 Official reading-speed numbers
+Class
+Official number
+Source
+1
+None. Reads short sentences of 4 to 5 simple words
+NIPUN Lakshya
+2
+About 45 to 60 correct words per minute (UP: at least 45)
+NIPUN Lakshya; UP H206
+3
+At least 60 correct words per minute with comprehension; 3 of 4 questions. FLS "meets" band 35 to 54 (Hindi)
+NIPUN Lakshya; UP H306, H308; FLS 2022
+4
+None
+Checked in all documents above
+5
+None
+Checked in all documents above
+The NIPUN guidelines contain one conflict: an example story says 30 to 35 words per minute for Class 2, while the target table says 45 to 60. The app uses the target table.
+3.3 Textbooks by curriculum
+Curriculum
+Hindi books
+Status
+NCERT / CBSE
+सारंगी (Classes 1, 2), वीणा (Classes 3, 4, 5)
+Verified with chapter titles and page numbers
+Uttar Pradesh
+वीणा for Class 3
+Class 3 verified; Classes 1, 2, 4, 5 not yet (UP SCERT e-book site was down)
+Rajasthan
+नन्हे कदम भाग-1, 2 (Classes 1, 2); हिंदी सुमन भाग-1, 2, 3 (Classes 3 to 5)
+Verified with all lesson titles (no page numbers in the source)
+4. What has been built
+Milestone
+What it delivers
+Status
+M1 Audit and architecture
+Project audit, plan, verified FLS benchmark, Flutter project, checkpoint system for long work sessions
+Done
+M2 Bilingual design system
+English and Hindi interface, Inter and Noto Sans Devanagari fonts, onboarding with privacy promise and passcode
+Done
+M3 Teacher and Student Mode
+Encrypted database, demo class, consent records, passcode lock with back-off, locked Student Mode with the Kiran mascot
+Done
+M4 Curriculum foundation
+Curriculum registry, class settings, Devanagari akshara engine, original passage bank, grade plans
+Done
+M5 Reading and understanding
+Full check: noise check, child reads, encrypted recording, teacher marks words, retell, questions, plain-words result
+Done
+Government milestones
+All documents above read; Class milestones page; official targets on results
+Done
+M6 Word check and groups
+Child-facing visual choice items (writing position on ruled notebook lines via CustomPainter, spelling, sound recognition, meaning), weighted scoring, regional dialect support, listening check, four support groups the teacher can change
+Done
+M7 Practice and reports
+Practice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboard
+Built; finishing
+4.1 A check, step by step
+The teacher opens a child and taps Start a check. The app picks a passage that fits the class and runs a 3-second room-noise check. The microphone permission is asked here, never in front of the child.
+The child sees a greeting in Hindi and reads the passage. The phone records locally. There is no timer, score or red mark on the child's screen.
+Immediately following the passage, the child enters Word check: 4 large shuffled visual choices per item with audio cues and 'Not sure' neutral skip. Writing-position items render Devanagari words on notebook ruled lines using CustomPainter (hanging from line, floating, sinking, crossing).
+The child sees "शाबाश!" and hands back the phone. Only the teacher passcode leaves Student Mode.
+The teacher plays the recording and taps each word: correct, read differently, skipped, self-corrected, repeated, or not sure. "Not sure" never counts as an error. The recording is deleted when the marks are saved.
+The teacher ticks the story points the child retold, then asks the comprehension questions and marks each answer. Answers in the child's home language or accepted regional dialect are accepted fully without penalty.
+Word check results (teacher view only): displays raw count and weighted score (first-try 1.0, wrong-to-right 0.75, right-to-wrong 0, 3+ changes x0.5, slow x0.85 with 0.5 floor, fast tap guess flag), along with top 3 mistake tags.
+The result says in plain words what the child can do, shows reading and understanding separately, and compares them with the official target for that class and curriculum.
+4.2 Support groups
+Each checked child is placed in one of four provisional groups. The teacher can move any child, with a note; the history is kept.
+Group
+Meaning
+On track
+Reads accurately and understands
+Understands, needs help reading words
+Understands the story but decoding holds them back
+Reads words, needs help understanding
+Decodes well but misses why and how
+Needs help with both
+Needs support with reading and understanding. A listening check that shows understanding moves the child to the second group.
+4.3 Practice and reports (M7)
+Practice engine: turns each child's evidence into needs (matras, conjuncts, bindu, word reading, fluency, facts, why and how, word meanings, spelling, listening).
+Group plans: a 10-minute plan per group from an offline bank of 14 original activities in English and Hindi, plus a home activity.
+Decodable practice words: the child's misread words first, then words built only from aksharas the child has already read correctly.
+A4 worksheets: printed through Android's print screen. Hindi is drawn by Flutter's text engine because the PDF library misprints Hindi (it printed "कतिाब" instead of "किताब").
+Child report: results, gaps, recommended action, practice words, suggested recheck date, and progress only between comparable checks.
+Parent report: plain Hindi or English, no scores or rankings. It can only be printed or shared after the teacher ticks an approval box.
+Class dashboard: checked and waiting counts, group counts, most often misread aksharas, spelling issues, rechecks due, and changes between comparable checks. Empty states instead of made-up numbers.
+4.4 Screenshots from the app
+Real captures from the app running on a 2 GB RAM Android emulator. All children shown are fictional demo learners.
+
+Welcome
+
+Privacy promise (Hindi)
+
+Class settings
+
+Before handing over
+
+Child reads
+
+Teacher marks words
+
+Questions
+
+Result in plain words
+
+Class 3 milestones
+
+Dictation
+
+Listening check result
+
+Class with support groups
+5. Architecture and technology
+Layer
+Technology
+App
+Flutter 3.47 (Dart 3.13), Android 8 and later, tested on a 2 GB RAM emulator
+State and navigation
+Riverpod 3, go_router 18 with guards for the lock and Student Mode
+Storage
+drift with SQLite3MultipleCiphers (encrypted database), schema version 5 with tested migrations (ChoiceResponsesTable, regional homeDialect)
+Secrets
+Random keys in Android Keystore-backed secure storage
+Audio vault (strictly audio only; zero photos or OCR)
+record (16 kHz WAV), just_audio; AES-256-GCM vault with automatic 24-hour purge
+Rules engine
+Pure Dart: Devanagari akshara segmentation, word comparison, scoring rubric v0.1, Word check weighted scoring engine, regional pronunciation registry, groups, practice, progress
+Printing
+pdf and printing packages; pages drawn with Flutter's text engine
+Content
+Curriculum registry (74 learning outcomes, 15 textbooks), benchmark registry, 9 original passages, 14 activities, 48 Word check items, regional variants registry
+Languages
+English and Hindi interface through ARB files; Hindi student screens even when the teacher uses English; home dialect settings (Awadhi/Bhojpuri, Rajasthani, Marathi-influenced, Punjabi-influenced)
+Sync
+Offline-first by default; optional Supabase cloud sync off by default with Row-Level Security.
+6. Privacy and security
+Data
+Where it lives
+How long
+Leaves the phone?
+Teacher passcode
+Hashed (PBKDF2) in secure storage
+Until reset
+Never
+Child name, class, consent
+Encrypted database
+Until deleted
+Only if teacher enables optional sync
+Reading recording
+Encrypted vault
+Deleted when marks are saved, or after 24 hours
+Never
+Word check item responses
+Encrypted database
+Until deleted
+Only if teacher enables optional sync
+Marks, answers, groups
+Encrypted database
+Until deleted
+Only if teacher enables optional sync
+Checked on the device: the stored recording was unreadable ciphertext, plain temporary audio copies were deleted at once, and both were deleted on save. Android backup is switched off for the app. Only first names appear on printed sheets.
+Under the DPDP Rules 2025, a parent's verifiable consent is needed for a child's data unless the processing relates to essential services such as education. A qualified person must confirm whether and how that exemption applies before any real school uses the app.
+7. Testing and quality
+Kind
+Coverage
+Rules
+Devanagari parser, word comparison, scoring, benchmarks, Word check weighted scoring, level promotion, dialect isolation guardrails, groups, practice, decodability, progress comparison
+Data
+Repositories, encryption on disk, recording vault, migrations v1 to v5
+Screens
+Onboarding, lock, Student Mode escape attempts, full check end to end, Word check child-facing view and passcode exit, listening check, group moves, class settings, milestones
+Language
+Every English string has a Hindi version; no em dashes in user text
+Emulator reviews
+Screenshots and written reviews for M1-M2, M3, M4, M5, M6 in docs/UI_REVIEWS
+Full test run: 134 automated tests passing, analyzer completely clean with 0 warnings.
+8. Known limitations
+The reading timer starts when the passage appears, so a very early "done" tap gives an unrealistic words-per-minute figure (guarded by evidence honesty threshold).
+All 9 passages and 14 activities are original and still need review by a teacher.
+The scoring rubric and Word check weights (v0.2) are provisional and marked as awaiting calibration against teachers' own marking in a pilot.
+Word check item bank (48 items) and regional pronunciation variants are provisional and need linguist and teacher verification.
+There is no automated speech or pronunciation recognition. The app does not detect pronunciation automatically; the teacher listens and marks reading words. Words default to unmarked until explicitly tapped or confirmed as correct by the teacher. The child selects visual items; the teacher marks oral reading.
+Uttar Pradesh textbook titles for Classes 1, 2, 4 and 5 are not verified (the official site was down).
+Marathi is not included yet (prepared as drop-in pack).
+The test APK is signed with a debug key and is for testing only, not for the Play Store.
+9. What is going to be built
+Milestone
+Planned work
+M7 finish
+Run the new screen tests, emulator review with screenshots, commit
+M8 Privacy and security
+Consent screens for real children; data deletion and withdrawal; the DPDP checklist with a legal reviewer; fingerprint unlock; design of an optional backend and sync
+M9 Testing and optimisation
+Integration and performance tests on a low-end profile, accessibility and text-size checks, results in docs/TEST_RESULTS
+M10 Release
+Signed release APK with the team's own key, release notes, install guide, completion report
+After the hackathon
+Classroom pilot and rubric calibration; more reviewed passages for every class; speech-recognition trial that only suggests marks; Marathi; optional backend for backup and school-level views
+10. Decisions and help needed from the team
+A teacher to review the passages, activities, rubric thresholds and dictation counts.
+A physical 2 to 3 GB RAM Android phone for real-device testing.
+The official UP Hindi textbook list for Classes 1, 2, 4 and 5.
+A qualified person for the DPDP legal review before any real school data.
+The missing Samajh project presentation file.
+A release signing key (kept outside the repository) for M10.
+11. Installing the test APK
+Copy Samajh-v0.1.0-test.apk to an Android phone (Android 8 or later).
+Open it and allow installing from this source when Android asks.
+Open Samajh, choose English or Hindi, read the privacy promise and set a 6-digit passcode.
+The app opens a demo class "3B" with 10 fictional children. Try: Class tab → a child → Start a check; the Class 3 milestones page; the Practice and Reports tabs.
+This build is for testing only. It contains no real children's data and sends nothing over the internet.

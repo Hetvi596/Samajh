@@ -1,0 +1,4312 @@
+{
+  "version": "1.0.0",
+  "status": "provisional",
+  "note": "Original Samajh visual choice items for Word Check, awaiting teacher review. Level 3 letter_formation items show four drawings of the same word: one written well and three with a common handwriting problem (no top line, letters spread apart, uneven letters, or a back-to-front letter).",
+  "hindi": {
+    "level_1": [
+      {
+        "id": "hi_l1_01",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "सेब",
+        "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "🍎 सेब",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🍌 केला",
+            "is_correct": false,
+            "distractor_tag": "different_fruit"
+          },
+          {
+            "id": "opt_3",
+            "text": "🥭 आम",
+            "is_correct": false,
+            "distractor_tag": "different_fruit"
+          },
+          {
+            "id": "opt_4",
+            "text": "🍇 अंगूर",
+            "is_correct": false,
+            "distractor_tag": "different_fruit"
+          }
+        ]
+      },
+      {
+        "id": "hi_l1_02",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "पेड़",
+        "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "🌲 पेड़",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🌸 फूल",
+            "is_correct": false,
+            "distractor_tag": "related_plant"
+          },
+          {
+            "id": "opt_3",
+            "text": "🍂 पत्ता",
+            "is_correct": false,
+            "distractor_tag": "related_plant"
+          },
+          {
+            "id": "opt_4",
+            "text": "🪴 गमला",
+            "is_correct": false,
+            "distractor_tag": "related_plant"
+          }
+        ]
+      },
+      {
+        "id": "hi_l1_03",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "मछली",
+        "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "🐟 मछली",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🐸 मेंढक",
+            "is_correct": false,
+            "distractor_tag": "water_creature"
+          },
+          {
+            "id": "opt_3",
+            "text": "🦆 बत्तख",
+            "is_correct": false,
+            "distractor_tag": "water_bird"
+          },
+          {
+            "id": "opt_4",
+            "text": "🦀 केकड़ा",
+            "is_correct": false,
+            "distractor_tag": "water_creature"
+          }
+        ]
+      },
+      {
+        "id": "hi_l1_04",
+        "level": 1,
+        "type": "sound_starts_with",
+        "prompt_audio_text": "क",
+        "prompt_label": "कौन सा शब्द 'क' की आवाज़ से शुरू होता है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "कमल",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "चम्मच",
+            "is_correct": false,
+            "distractor_tag": "starts_with_ch"
+          },
+          {
+            "id": "opt_3",
+            "text": "टमाटर",
+            "is_correct": false,
+            "distractor_tag": "starts_with_t"
+          },
+          {
+            "id": "opt_4",
+            "text": "मटर",
+            "is_correct": false,
+            "distractor_tag": "starts_with_m"
+          }
+        ]
+      },
+      {
+        "id": "hi_l1_05",
+        "level": 1,
+        "type": "sound_ends_with",
+        "prompt_audio_text": "ल",
+        "prompt_label": "कौन सा शब्द 'ल' की आवाज़ पर खत्म होता है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "जल",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "घर",
+            "is_correct": false,
+            "distractor_tag": "ends_with_r"
+          },
+          {
+            "id": "opt_3",
+            "text": "बस",
+            "is_correct": false,
+            "distractor_tag": "ends_with_s"
+          },
+          {
+            "id": "opt_4",
+            "text": "मन",
+            "is_correct": false,
+            "distractor_tag": "ends_with_n"
+          }
+        ]
+      },
+      {
+        "id": "hi_l1_06",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "सूरज",
+        "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "☀️ सूरज",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🌙 चाँद",
+            "is_correct": false,
+            "distractor_tag": "sky_object"
+          },
+          {
+            "id": "opt_3",
+            "text": "⭐ तारा",
+            "is_correct": false,
+            "distractor_tag": "sky_object"
+          },
+          {
+            "id": "opt_4",
+            "text": "☁️ बादल",
+            "is_correct": false,
+            "distractor_tag": "sky_object"
+          }
+        ]
+      }
+    ],
+    "level_2": [
+      {
+        "id": "hi_l2_01",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "पानी",
+        "prompt_label": "सही वर्तनी चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "पानी",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "पानि",
+            "is_correct": false,
+            "distractor_tag": "short_long_i_ee"
+          },
+          {
+            "id": "opt_3",
+            "text": "पनी",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          },
+          {
+            "id": "opt_4",
+            "text": "पाने",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          }
+        ]
+      },
+      {
+        "id": "hi_l2_02",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "दिन",
+        "prompt_label": "सही वर्तनी चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "दिन",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "दीन",
+            "is_correct": false,
+            "distractor_tag": "short_long_i_ee"
+          },
+          {
+            "id": "opt_3",
+            "text": "दन",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          },
+          {
+            "id": "opt_4",
+            "text": "देिन",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          }
+        ]
+      },
+      {
+        "id": "hi_l2_03",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "बच्चा",
+        "prompt_label": "सही वर्तनी चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "बच्चा",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "बचा",
+            "is_correct": false,
+            "distractor_tag": "dropped_conjunct"
+          },
+          {
+            "id": "opt_3",
+            "text": "बचचा",
+            "is_correct": false,
+            "distractor_tag": "dropped_conjunct"
+          },
+          {
+            "id": "opt_4",
+            "text": "बच्छा",
+            "is_correct": false,
+            "distractor_tag": "similar_shape_letter"
+          }
+        ]
+      },
+      {
+        "id": "hi_l2_04",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "पतंग",
+        "prompt_label": "सही वर्तनी चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "पतंग",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "पतग",
+            "is_correct": false,
+            "distractor_tag": "bindu_chandrabindu"
+          },
+          {
+            "id": "opt_3",
+            "text": "पतँग",
+            "is_correct": false,
+            "distractor_tag": "bindu_chandrabindu"
+          },
+          {
+            "id": "opt_4",
+            "text": "पतांग",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          }
+        ]
+      },
+      {
+        "id": "hi_l2_05",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "चाँद",
+        "prompt_label": "सही वर्तनी चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "चाँद",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "चांद",
+            "is_correct": false,
+            "distractor_tag": "bindu_chandrabindu"
+          },
+          {
+            "id": "opt_3",
+            "text": "चाद",
+            "is_correct": false,
+            "distractor_tag": "bindu_chandrabindu"
+          },
+          {
+            "id": "opt_4",
+            "text": "चन्द",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          }
+        ]
+      },
+      {
+        "id": "hi_l2_06",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "किताब",
+        "prompt_label": "सही वर्तनी चुनें",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "किताब",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "कीताब",
+            "is_correct": false,
+            "distractor_tag": "short_long_i_ee"
+          },
+          {
+            "id": "opt_3",
+            "text": "कताब",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          },
+          {
+            "id": "opt_4",
+            "text": "केताब",
+            "is_correct": false,
+            "distractor_tag": "wrong_matra"
+          }
+        ]
+      }
+    ],
+    "level_3": [
+      {
+        "id": "hi_l3_01",
+        "level": 3,
+        "type": "writing_position",
+        "target_word": "कमल",
+        "prompt_audio_text": "कमल",
+        "prompt_label": "कॉपी की लाइन पर कौन सा सही लिखा है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "कमल",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "कमल",
+            "position_style": "floatingAbove",
+            "is_correct": false,
+            "distractor_tag": "floating_above"
+          },
+          {
+            "id": "opt_3",
+            "text": "कमल",
+            "position_style": "sinkingBelow",
+            "is_correct": false,
+            "distractor_tag": "sinking_below"
+          },
+          {
+            "id": "opt_4",
+            "text": "कमल",
+            "position_style": "crossingLine",
+            "is_correct": false,
+            "distractor_tag": "crossing_line"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_02",
+        "level": 3,
+        "type": "writing_position",
+        "target_word": "गुलाब",
+        "prompt_audio_text": "गुलाब",
+        "prompt_label": "कॉपी की लाइन पर कौन सा सही लिखा है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "गुलाब",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "गुलाब",
+            "position_style": "floatingAbove",
+            "is_correct": false,
+            "distractor_tag": "floating_above"
+          },
+          {
+            "id": "opt_3",
+            "text": "गुलाब",
+            "position_style": "sinkingBelow",
+            "is_correct": false,
+            "distractor_tag": "sinking_below"
+          },
+          {
+            "id": "opt_4",
+            "text": "गुलाब",
+            "position_style": "crossingLine",
+            "is_correct": false,
+            "distractor_tag": "crossing_line"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_03",
+        "level": 3,
+        "type": "fill_blank",
+        "prompt_audio_text": "चिड़िया पेड़ पर घोंसला बनाती है।",
+        "prompt_label": "चिड़िया पेड़ पर ___ बनाती है।",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "घोंसला",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "जूता",
+            "is_correct": false,
+            "distractor_tag": "illogical_object"
+          },
+          {
+            "id": "opt_3",
+            "text": "पानी",
+            "is_correct": false,
+            "distractor_tag": "illogical_object"
+          },
+          {
+            "id": "opt_4",
+            "text": "सड़क",
+            "is_correct": false,
+            "distractor_tag": "illogical_object"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_04",
+        "level": 3,
+        "type": "fill_blank",
+        "prompt_audio_text": "सूरज पूरब दिशा से निकलता है।",
+        "prompt_label": "सूरज ___ दिशा से निकलता है।",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "पूरब",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "पश्चिम",
+            "is_correct": false,
+            "distractor_tag": "wrong_direction"
+          },
+          {
+            "id": "opt_3",
+            "text": "नीचे",
+            "is_correct": false,
+            "distractor_tag": "wrong_direction"
+          },
+          {
+            "id": "opt_4",
+            "text": "अंदर",
+            "is_correct": false,
+            "distractor_tag": "wrong_direction"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_05",
+        "level": 3,
+        "type": "odd_one_out",
+        "prompt_audio_text": "इनमें से अलग कौन सा है?",
+        "prompt_label": "इनमें से कौन सा शब्द बाकी तीनों से अलग है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "कुर्सी",
+            "is_correct": true,
+            "distractor_tag": "furniture_vs_fruit"
+          },
+          {
+            "id": "opt_2",
+            "text": "आम",
+            "is_correct": false,
+            "distractor_tag": "fruit_group"
+          },
+          {
+            "id": "opt_3",
+            "text": "केला",
+            "is_correct": false,
+            "distractor_tag": "fruit_group"
+          },
+          {
+            "id": "opt_4",
+            "text": "अंगूर",
+            "is_correct": false,
+            "distractor_tag": "fruit_group"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_06",
+        "level": 3,
+        "type": "odd_one_out",
+        "prompt_audio_text": "इनमें से अलग कौन सा है?",
+        "prompt_label": "इनमें से कौन सा शब्द बाकी तीनों से अलग है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "किताब",
+            "is_correct": true,
+            "distractor_tag": "stationery_vs_vehicle"
+          },
+          {
+            "id": "opt_2",
+            "text": "कार",
+            "is_correct": false,
+            "distractor_tag": "vehicle_group"
+          },
+          {
+            "id": "opt_3",
+            "text": "बस",
+            "is_correct": false,
+            "distractor_tag": "vehicle_group"
+          },
+          {
+            "id": "opt_4",
+            "text": "साइकिल",
+            "is_correct": false,
+            "distractor_tag": "vehicle_group"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_lf_01",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "कलम",
+        "prompt_audio_text": "कलम",
+        "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "कलम",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "कलम",
+            "position_style": "missingShirorekha",
+            "is_correct": false,
+            "distractor_tag": "missing_shirorekha"
+          },
+          {
+            "id": "opt_3",
+            "text": "कलम",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "कलम",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_lf_02",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "नमक",
+        "prompt_audio_text": "नमक",
+        "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "नमक",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "नमक",
+            "position_style": "missingShirorekha",
+            "is_correct": false,
+            "distractor_tag": "missing_shirorekha"
+          },
+          {
+            "id": "opt_3",
+            "text": "नमक",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "नमक",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_lf_03",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "बरतन",
+        "prompt_audio_text": "बरतन",
+        "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "बरतन",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "बरतन",
+            "position_style": "missingShirorekha",
+            "is_correct": false,
+            "distractor_tag": "missing_shirorekha"
+          },
+          {
+            "id": "opt_3",
+            "text": "बरतन",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "बरतन",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      },
+      {
+        "id": "hi_l3_lf_04",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "गमला",
+        "prompt_audio_text": "गमला",
+        "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "गमला",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "गमला",
+            "position_style": "missingShirorekha",
+            "is_correct": false,
+            "distractor_tag": "missing_shirorekha"
+          },
+          {
+            "id": "opt_3",
+            "text": "गमला",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "गमला",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      }
+    ],
+    "level_4": [
+      {
+        "id": "hi_l4_01",
+        "level": 4,
+        "type": "meaning_inference",
+        "prompt_audio_text": "रोहन बहुत प्रसन्न था क्योंकि उसे नया खिलौना मिला। प्रसन्न का क्या अर्थ है?",
+        "prompt_label": "वाक्य में 'प्रसन्न' का क्या अर्थ है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "खुश",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "उदास",
+            "is_correct": false,
+            "distractor_tag": "opposite_emotion"
+          },
+          {
+            "id": "opt_3",
+            "text": "थका हुआ",
+            "is_correct": false,
+            "distractor_tag": "unrelated_emotion"
+          },
+          {
+            "id": "opt_4",
+            "text": "गुस्सा",
+            "is_correct": false,
+            "distractor_tag": "unrelated_emotion"
+          }
+        ]
+      },
+      {
+        "id": "hi_l4_02",
+        "level": 4,
+        "type": "meaning_inference",
+        "prompt_audio_text": "जंगल में एक विशाल पेड़ था। विशाल का क्या अर्थ है?",
+        "prompt_label": "वाक्य में 'विशाल' का क्या अर्थ है?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "बहुत बड़ा",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "बहुत छोटा",
+            "is_correct": false,
+            "distractor_tag": "opposite_size"
+          },
+          {
+            "id": "opt_3",
+            "text": "सूखा हुआ",
+            "is_correct": false,
+            "distractor_tag": "unrelated_quality"
+          },
+          {
+            "id": "opt_4",
+            "text": "नया",
+            "is_correct": false,
+            "distractor_tag": "unrelated_quality"
+          }
+        ]
+      },
+      {
+        "id": "hi_l4_03",
+        "level": 4,
+        "type": "sentence_match",
+        "prompt_audio_text": "बारिश में छाता लेकर चलना।",
+        "prompt_label": "चित्र 🌧️ ☂️ के लिए सही वाक्य चुनें:",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "बच्चा बारिश में छाता लेकर जा रहा है।",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "सूरज की तेज़ धूप खिली हुई है।",
+            "is_correct": false,
+            "distractor_tag": "contradictory_scene"
+          },
+          {
+            "id": "opt_3",
+            "text": "सड़क पर गाड़ियाँ दौड़ रही हैं।",
+            "is_correct": false,
+            "distractor_tag": "unrelated_scene"
+          },
+          {
+            "id": "opt_4",
+            "text": "रात में तारे चमक रहे हैं।",
+            "is_correct": false,
+            "distractor_tag": "night_scene"
+          }
+        ]
+      },
+      {
+        "id": "hi_l4_04",
+        "level": 4,
+        "type": "event_sequence",
+        "prompt_audio_text": "बीज बोया गया, पानी दिया गया, फिर नन्हा पौधा उगा। सबसे पहले क्या हुआ?",
+        "prompt_label": "कहानी में सबसे पहले क्या हुआ?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "बीज बोया गया",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "पौधे पर फूल आए",
+            "is_correct": false,
+            "distractor_tag": "final_event"
+          },
+          {
+            "id": "opt_3",
+            "text": "नन्हा पौधा उगा",
+            "is_correct": false,
+            "distractor_tag": "later_event"
+          },
+          {
+            "id": "opt_4",
+            "text": "फल तोड़े गए",
+            "is_correct": false,
+            "distractor_tag": "final_event"
+          }
+        ]
+      },
+      {
+        "id": "hi_l4_05",
+        "level": 4,
+        "type": "event_sequence",
+        "prompt_audio_text": "मीरा उठी, उसने दाँत साफ़ किए और फिर स्कूल गई। मीरा ने स्कूल जाने से पहले क्या किया?",
+        "prompt_label": "मीरा ने स्कूल जाने से ठीक पहले क्या किया?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "दाँत साफ़ किए",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "सोने चली गई",
+            "is_correct": false,
+            "distractor_tag": "illogical_event"
+          },
+          {
+            "id": "opt_3",
+            "text": "रात का खाना खाया",
+            "is_correct": false,
+            "distractor_tag": "wrong_time_event"
+          },
+          {
+            "id": "opt_4",
+            "text": "खेलने बगीचे में गई",
+            "is_correct": false,
+            "distractor_tag": "unmentioned_event"
+          }
+        ]
+      },
+      {
+        "id": "hi_l4_06",
+        "level": 4,
+        "type": "meaning_inference",
+        "prompt_audio_text": "गर्मी में चिड़िया को बहुत प्यास लगी थी। उसे क्या चाहिए था?",
+        "prompt_label": "चिड़िया को प्यास बुझाने के लिए क्या चाहिए था?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "पानी",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "रोटी",
+            "is_correct": false,
+            "distractor_tag": "food_not_water"
+          },
+          {
+            "id": "opt_3",
+            "text": "घोंसला",
+            "is_correct": false,
+            "distractor_tag": "shelter_not_water"
+          },
+          {
+            "id": "opt_4",
+            "text": "खिलौना",
+            "is_correct": false,
+            "distractor_tag": "unrelated_object"
+          }
+        ]
+      }
+    ]
+  },
+  "english": {
+    "level_1": [
+      {
+        "id": "en_l1_01",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "Apple",
+        "prompt_label": "Pick the picture for the word you heard",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "🍎 Apple",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🍌 Banana",
+            "is_correct": false,
+            "distractor_tag": "different_fruit"
+          },
+          {
+            "id": "opt_3",
+            "text": "🍇 Grapes",
+            "is_correct": false,
+            "distractor_tag": "different_fruit"
+          },
+          {
+            "id": "opt_4",
+            "text": "🥭 Mango",
+            "is_correct": false,
+            "distractor_tag": "different_fruit"
+          }
+        ]
+      },
+      {
+        "id": "en_l1_02",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "Tree",
+        "prompt_label": "Pick the picture for the word you heard",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "🌲 Tree",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🌸 Flower",
+            "is_correct": false,
+            "distractor_tag": "related_plant"
+          },
+          {
+            "id": "opt_3",
+            "text": "🍂 Leaf",
+            "is_correct": false,
+            "distractor_tag": "related_plant"
+          },
+          {
+            "id": "opt_4",
+            "text": "🪴 Plant",
+            "is_correct": false,
+            "distractor_tag": "related_plant"
+          }
+        ]
+      },
+      {
+        "id": "en_l1_03",
+        "level": 1,
+        "type": "sound_starts_with",
+        "prompt_audio_text": "B",
+        "prompt_label": "Which word starts with the 'B' sound?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Ball",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Cat",
+            "is_correct": false,
+            "distractor_tag": "starts_with_c"
+          },
+          {
+            "id": "opt_3",
+            "text": "Dog",
+            "is_correct": false,
+            "distractor_tag": "starts_with_d"
+          },
+          {
+            "id": "opt_4",
+            "text": "Sun",
+            "is_correct": false,
+            "distractor_tag": "starts_with_s"
+          }
+        ]
+      },
+      {
+        "id": "en_l1_04",
+        "level": 1,
+        "type": "sound_ends_with",
+        "prompt_audio_text": "T",
+        "prompt_label": "Which word ends with the 'T' sound?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Cat",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Pen",
+            "is_correct": false,
+            "distractor_tag": "ends_with_n"
+          },
+          {
+            "id": "opt_3",
+            "text": "Car",
+            "is_correct": false,
+            "distractor_tag": "ends_with_r"
+          },
+          {
+            "id": "opt_4",
+            "text": "Cup",
+            "is_correct": false,
+            "distractor_tag": "ends_with_p"
+          }
+        ]
+      },
+      {
+        "id": "en_l1_05",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "Fish",
+        "prompt_label": "Pick the picture for the word you heard",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "🐟 Fish",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🐸 Frog",
+            "is_correct": false,
+            "distractor_tag": "water_creature"
+          },
+          {
+            "id": "opt_3",
+            "text": "🦆 Duck",
+            "is_correct": false,
+            "distractor_tag": "water_bird"
+          },
+          {
+            "id": "opt_4",
+            "text": "🦀 Crab",
+            "is_correct": false,
+            "distractor_tag": "water_creature"
+          }
+        ]
+      },
+      {
+        "id": "en_l1_06",
+        "level": 1,
+        "type": "sound_recognition",
+        "prompt_audio_text": "Sun",
+        "prompt_label": "Pick the picture for the word you heard",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "☀️ Sun",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "🌙 Moon",
+            "is_correct": false,
+            "distractor_tag": "sky_object"
+          },
+          {
+            "id": "opt_3",
+            "text": "⭐ Star",
+            "is_correct": false,
+            "distractor_tag": "sky_object"
+          },
+          {
+            "id": "opt_4",
+            "text": "☁️ Cloud",
+            "is_correct": false,
+            "distractor_tag": "sky_object"
+          }
+        ]
+      }
+    ],
+    "level_2": [
+      {
+        "id": "en_l2_01",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "Rain",
+        "prompt_label": "Pick the correct spelling",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Rain",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Rane",
+            "is_correct": false,
+            "distractor_tag": "phonetic_error"
+          },
+          {
+            "id": "opt_3",
+            "text": "Ran",
+            "is_correct": false,
+            "distractor_tag": "missing_vowel"
+          },
+          {
+            "id": "opt_4",
+            "text": "Rein",
+            "is_correct": false,
+            "distractor_tag": "homophone_error"
+          }
+        ]
+      },
+      {
+        "id": "en_l2_02",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "Book",
+        "prompt_label": "Pick the correct spelling",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Book",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Bok",
+            "is_correct": false,
+            "distractor_tag": "single_vowel"
+          },
+          {
+            "id": "opt_3",
+            "text": "Buke",
+            "is_correct": false,
+            "distractor_tag": "phonetic_error"
+          },
+          {
+            "id": "opt_4",
+            "text": "Boock",
+            "is_correct": false,
+            "distractor_tag": "double_consonant"
+          }
+        ]
+      },
+      {
+        "id": "en_l2_03",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "Water",
+        "prompt_label": "Pick the correct spelling",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Water",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Watar",
+            "is_correct": false,
+            "distractor_tag": "vowel_substitution"
+          },
+          {
+            "id": "opt_3",
+            "text": "Woter",
+            "is_correct": false,
+            "distractor_tag": "vowel_substitution"
+          },
+          {
+            "id": "opt_4",
+            "text": "Watter",
+            "is_correct": false,
+            "distractor_tag": "double_consonant"
+          }
+        ]
+      },
+      {
+        "id": "en_l2_04",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "Play",
+        "prompt_label": "Pick the correct spelling",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Play",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Pley",
+            "is_correct": false,
+            "distractor_tag": "vowel_substitution"
+          },
+          {
+            "id": "opt_3",
+            "text": "Plai",
+            "is_correct": false,
+            "distractor_tag": "phonetic_error"
+          },
+          {
+            "id": "opt_4",
+            "text": "Pla",
+            "is_correct": false,
+            "distractor_tag": "dropped_ending"
+          }
+        ]
+      },
+      {
+        "id": "en_l2_05",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "School",
+        "prompt_label": "Pick the correct spelling",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "School",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Skool",
+            "is_correct": false,
+            "distractor_tag": "phonetic_error"
+          },
+          {
+            "id": "opt_3",
+            "text": "Schol",
+            "is_correct": false,
+            "distractor_tag": "single_vowel"
+          },
+          {
+            "id": "opt_4",
+            "text": "Scool",
+            "is_correct": false,
+            "distractor_tag": "dropped_consonant"
+          }
+        ]
+      },
+      {
+        "id": "en_l2_06",
+        "level": 2,
+        "type": "spelling",
+        "prompt_audio_text": "Friend",
+        "prompt_label": "Pick the correct spelling",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Friend",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Frend",
+            "is_correct": false,
+            "distractor_tag": "missing_vowel"
+          },
+          {
+            "id": "opt_3",
+            "text": "Freind",
+            "is_correct": false,
+            "distractor_tag": "vowel_reversal"
+          },
+          {
+            "id": "opt_4",
+            "text": "Frind",
+            "is_correct": false,
+            "distractor_tag": "missing_vowel"
+          }
+        ]
+      }
+    ],
+    "level_3": [
+      {
+        "id": "en_l3_01",
+        "level": 3,
+        "type": "writing_position",
+        "target_word": "Play",
+        "prompt_audio_text": "Play",
+        "prompt_label": "Which one sits correctly on the notebook line?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Play",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Play",
+            "position_style": "floatingAbove",
+            "is_correct": false,
+            "distractor_tag": "floating_above"
+          },
+          {
+            "id": "opt_3",
+            "text": "Play",
+            "position_style": "sinkingBelow",
+            "is_correct": false,
+            "distractor_tag": "sinking_below"
+          },
+          {
+            "id": "opt_4",
+            "text": "Play",
+            "position_style": "crossingLine",
+            "is_correct": false,
+            "distractor_tag": "crossing_line"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_02",
+        "level": 3,
+        "type": "writing_position",
+        "target_word": "Garden",
+        "prompt_audio_text": "Garden",
+        "prompt_label": "Which one sits correctly on the notebook line?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Garden",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Garden",
+            "position_style": "floatingAbove",
+            "is_correct": false,
+            "distractor_tag": "floating_above"
+          },
+          {
+            "id": "opt_3",
+            "text": "Garden",
+            "position_style": "sinkingBelow",
+            "is_correct": false,
+            "distractor_tag": "sinking_below"
+          },
+          {
+            "id": "opt_4",
+            "text": "Garden",
+            "position_style": "crossingLine",
+            "is_correct": false,
+            "distractor_tag": "crossing_line"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_03",
+        "level": 3,
+        "type": "fill_blank",
+        "prompt_audio_text": "Birds build a nest on the tree.",
+        "prompt_label": "Birds build a ___ on the tree.",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "nest",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "shoe",
+            "is_correct": false,
+            "distractor_tag": "illogical_object"
+          },
+          {
+            "id": "opt_3",
+            "text": "road",
+            "is_correct": false,
+            "distractor_tag": "illogical_object"
+          },
+          {
+            "id": "opt_4",
+            "text": "bottle",
+            "is_correct": false,
+            "distractor_tag": "illogical_object"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_04",
+        "level": 3,
+        "type": "fill_blank",
+        "prompt_audio_text": "The sun rises in the east.",
+        "prompt_label": "The sun rises in the ___.",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "east",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "west",
+            "is_correct": false,
+            "distractor_tag": "wrong_direction"
+          },
+          {
+            "id": "opt_3",
+            "text": "floor",
+            "is_correct": false,
+            "distractor_tag": "wrong_direction"
+          },
+          {
+            "id": "opt_4",
+            "text": "pocket",
+            "is_correct": false,
+            "distractor_tag": "wrong_direction"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_05",
+        "level": 3,
+        "type": "odd_one_out",
+        "prompt_audio_text": "Which one does not belong?",
+        "prompt_label": "Which word does not belong with the others?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Chair",
+            "is_correct": true,
+            "distractor_tag": "furniture_vs_fruit"
+          },
+          {
+            "id": "opt_2",
+            "text": "Apple",
+            "is_correct": false,
+            "distractor_tag": "fruit_group"
+          },
+          {
+            "id": "opt_3",
+            "text": "Banana",
+            "is_correct": false,
+            "distractor_tag": "fruit_group"
+          },
+          {
+            "id": "opt_4",
+            "text": "Orange",
+            "is_correct": false,
+            "distractor_tag": "fruit_group"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_06",
+        "level": 3,
+        "type": "odd_one_out",
+        "prompt_audio_text": "Which one does not belong?",
+        "prompt_label": "Which word does not belong with the others?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Book",
+            "is_correct": true,
+            "distractor_tag": "stationery_vs_vehicle"
+          },
+          {
+            "id": "opt_2",
+            "text": "Car",
+            "is_correct": false,
+            "distractor_tag": "vehicle_group"
+          },
+          {
+            "id": "opt_3",
+            "text": "Bus",
+            "is_correct": false,
+            "distractor_tag": "vehicle_group"
+          },
+          {
+            "id": "opt_4",
+            "text": "Bicycle",
+            "is_correct": false,
+            "distractor_tag": "vehicle_group"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_lf_01",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "bed",
+        "prompt_audio_text": "bed",
+        "prompt_label": "Which word is written neatly and correctly?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "bed",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "bed",
+            "position_style": "mirroredLetter",
+            "is_correct": false,
+            "distractor_tag": "mirrored_letter"
+          },
+          {
+            "id": "opt_3",
+            "text": "bed",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "bed",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_lf_02",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "dog",
+        "prompt_audio_text": "dog",
+        "prompt_label": "Which word is written neatly and correctly?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "dog",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "dog",
+            "position_style": "mirroredLetter",
+            "is_correct": false,
+            "distractor_tag": "mirrored_letter"
+          },
+          {
+            "id": "opt_3",
+            "text": "dog",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "dog",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_lf_03",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "pin",
+        "prompt_audio_text": "pin",
+        "prompt_label": "Which word is written neatly and correctly?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "pin",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "pin",
+            "position_style": "mirroredLetter",
+            "is_correct": false,
+            "distractor_tag": "mirrored_letter"
+          },
+          {
+            "id": "opt_3",
+            "text": "pin",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "pin",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      },
+      {
+        "id": "en_l3_lf_04",
+        "level": 3,
+        "type": "letter_formation",
+        "target_word": "cup",
+        "prompt_audio_text": "cup",
+        "prompt_label": "Which word is written neatly and correctly?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "cup",
+            "position_style": "correctHanging",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "cup",
+            "position_style": "mirroredLetter",
+            "is_correct": false,
+            "distractor_tag": "mirrored_letter"
+          },
+          {
+            "id": "opt_3",
+            "text": "cup",
+            "position_style": "lettersSpreadApart",
+            "is_correct": false,
+            "distractor_tag": "letters_spread_apart"
+          },
+          {
+            "id": "opt_4",
+            "text": "cup",
+            "position_style": "unevenLetters",
+            "is_correct": false,
+            "distractor_tag": "uneven_letters"
+          }
+        ]
+      }
+    ],
+    "level_4": [
+      {
+        "id": "en_l4_01",
+        "level": 4,
+        "type": "meaning_inference",
+        "prompt_audio_text": "Rohan was thrilled to get a new toy. What does thrilled mean?",
+        "prompt_label": "What does 'thrilled' mean in this sentence?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Very happy",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Sad",
+            "is_correct": false,
+            "distractor_tag": "opposite_emotion"
+          },
+          {
+            "id": "opt_3",
+            "text": "Sleepy",
+            "is_correct": false,
+            "distractor_tag": "unrelated_emotion"
+          },
+          {
+            "id": "opt_4",
+            "text": "Angry",
+            "is_correct": false,
+            "distractor_tag": "unrelated_emotion"
+          }
+        ]
+      },
+      {
+        "id": "en_l4_02",
+        "level": 4,
+        "type": "meaning_inference",
+        "prompt_audio_text": "The elephant was gigantic. What does gigantic mean?",
+        "prompt_label": "What does 'gigantic' mean in this sentence?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Very large",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Tiny",
+            "is_correct": false,
+            "distractor_tag": "opposite_size"
+          },
+          {
+            "id": "opt_3",
+            "text": "Fast",
+            "is_correct": false,
+            "distractor_tag": "speed_not_size"
+          },
+          {
+            "id": "opt_4",
+            "text": "Cold",
+            "is_correct": false,
+            "distractor_tag": "temperature_not_size"
+          }
+        ]
+      },
+      {
+        "id": "en_l4_03",
+        "type": "sentence_match",
+        "level": 4,
+        "prompt_audio_text": "Walking with an umbrella in the rain.",
+        "prompt_label": "Pick the sentence that matches the picture 🌧️ ☂️:",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "The child walks in the rain with an umbrella.",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "The sun is shining brightly on the beach.",
+            "is_correct": false,
+            "distractor_tag": "contradictory_scene"
+          },
+          {
+            "id": "opt_3",
+            "text": "Cars are driving down the dry highway.",
+            "is_correct": false,
+            "distractor_tag": "unrelated_scene"
+          },
+          {
+            "id": "opt_4",
+            "text": "Stars are twinkling in the clear night sky.",
+            "is_correct": false,
+            "distractor_tag": "night_scene"
+          }
+        ]
+      },
+      {
+        "id": "en_l4_04",
+        "level": 4,
+        "type": "event_sequence",
+        "prompt_audio_text": "A seed was planted, watered every morning, and then a green sprout appeared. What happened first?",
+        "prompt_label": "What happened first in the story?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "The seed was planted",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Flowers bloomed",
+            "is_correct": false,
+            "distractor_tag": "final_event"
+          },
+          {
+            "id": "opt_3",
+            "text": "A green sprout appeared",
+            "is_correct": false,
+            "distractor_tag": "later_event"
+          },
+          {
+            "id": "opt_4",
+            "text": "Fruits were picked",
+            "is_correct": false,
+            "distractor_tag": "final_event"
+          }
+        ]
+      },
+      {
+        "id": "en_l4_05",
+        "level": 4,
+        "type": "event_sequence",
+        "prompt_audio_text": "Maya woke up, brushed her teeth, and then walked to school. What did Maya do right before walking to school?",
+        "prompt_label": "What did Maya do right before walking to school?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Brushed her teeth",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Went to sleep",
+            "is_correct": false,
+            "distractor_tag": "illogical_event"
+          },
+          {
+            "id": "opt_3",
+            "text": "Ate dinner",
+            "is_correct": false,
+            "distractor_tag": "wrong_time_event"
+          },
+          {
+            "id": "opt_4",
+            "text": "Watched stars",
+            "is_correct": false,
+            "distractor_tag": "unmentioned_event"
+          }
+        ]
+      },
+      {
+        "id": "en_l4_06",
+        "level": 4,
+        "type": "meaning_inference",
+        "prompt_audio_text": "On a hot afternoon, the little bird was very thirsty. What did the bird need?",
+        "prompt_label": "What did the thirsty bird need?",
+        "status": "awaiting teacher review",
+        "options": [
+          {
+            "id": "opt_1",
+            "text": "Water",
+            "is_correct": true,
+            "distractor_tag": null
+          },
+          {
+            "id": "opt_2",
+            "text": "Bread",
+            "is_correct": false,
+            "distractor_tag": "food_not_water"
+          },
+          {
+            "id": "opt_3",
+            "text": "A nest",
+            "is_correct": false,
+            "distractor_tag": "shelter_not_water"
+          },
+          {
+            "id": "opt_4",
+            "text": "A blanket",
+            "is_correct": false,
+            "distractor_tag": "unrelated_object"
+          }
+        ]
+      }
+    ]
+  },
+  "hindi_by_grade": {
+    "1": {
+      "about": "Class 1: words from Sarangi 1 themes (परिवार, जीव-जगत, खान-पान, त्योहार और मेले, हरी-भरी दुनिया); basic letters, 2-4 akshara words, the first matras; short heard sentences.",
+      "level_1": [
+        {
+          "id": "hi_g1_l1_01",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "बस",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.1-G1",
+            "FS-HI-C10.3-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🚌 बस",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🦆 बतख",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🐐 बकरी",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "☁️ बादल",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l1_02",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "घर",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.1-G1",
+            "FS-HI-C10.3-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🏠 घर",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "⏰ घड़ी",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🌿 घास",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🐎 घोड़ा",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l1_03",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "नल",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.1-G1",
+            "FS-HI-C10.3-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🚰 नल",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "⛵ नाव",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "👃 नाक",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🧂 नमक",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l1_04",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "आलू",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.1-G1",
+            "FS-HI-C10.3-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🥔 आलू",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🥭 आम",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🔥 आग",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "👁️ आँख",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l1_05",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "मोर",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.1-G1",
+            "FS-HI-C10.3-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🦚 मोर",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🐟 मछली",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🕷️ मकड़ी",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🐓 मुर्गा",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        }
+      ],
+      "level_2": [
+        {
+          "id": "hi_g1_l2_01",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "कमल",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G1",
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "कमल",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "कामल",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_3",
+              "text": "कमिल",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_4",
+              "text": "कलम",
+              "is_correct": false,
+              "distractor_tag": "letter_order"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l2_02",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "दादी",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G1",
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "दादी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "दादि",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_3",
+              "text": "ददी",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_4",
+              "text": "दीदा",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l2_03",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "रानी",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G1",
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "रानी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "रानि",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_3",
+              "text": "रनी",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_4",
+              "text": "राना",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l2_04",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "बतख",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G1",
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बतख",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "बताख",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_3",
+              "text": "बतक",
+              "is_correct": false,
+              "distractor_tag": "wrong_letter"
+            },
+            {
+              "id": "opt_4",
+              "text": "बखत",
+              "is_correct": false,
+              "distractor_tag": "letter_order"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l2_05",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "नमक",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G1",
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "नमक",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "नमाक",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_3",
+              "text": "मनक",
+              "is_correct": false,
+              "distractor_tag": "letter_order"
+            },
+            {
+              "id": "opt_4",
+              "text": "नमख",
+              "is_correct": false,
+              "distractor_tag": "wrong_letter"
+            }
+          ]
+        }
+      ],
+      "level_3": [
+        {
+          "id": "hi_g1_l3_01",
+          "level": 3,
+          "type": "writing_position",
+          "target_word": "घर",
+          "prompt_audio_text": "घर",
+          "prompt_label": "कॉपी की लाइन पर कौन सा सही लिखा है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "घर",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "घर",
+              "is_correct": false,
+              "distractor_tag": "floating_above",
+              "position_style": "floatingAbove"
+            },
+            {
+              "id": "opt_3",
+              "text": "घर",
+              "is_correct": false,
+              "distractor_tag": "sinking_below",
+              "position_style": "sinkingBelow"
+            },
+            {
+              "id": "opt_4",
+              "text": "घर",
+              "is_correct": false,
+              "distractor_tag": "crossing_line",
+              "position_style": "crossingLine"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l3_02",
+          "level": 3,
+          "type": "writing_position",
+          "target_word": "नल",
+          "prompt_audio_text": "नल",
+          "prompt_label": "कॉपी की लाइन पर कौन सा सही लिखा है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "नल",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "नल",
+              "is_correct": false,
+              "distractor_tag": "floating_above",
+              "position_style": "floatingAbove"
+            },
+            {
+              "id": "opt_3",
+              "text": "नल",
+              "is_correct": false,
+              "distractor_tag": "sinking_below",
+              "position_style": "sinkingBelow"
+            },
+            {
+              "id": "opt_4",
+              "text": "नल",
+              "is_correct": false,
+              "distractor_tag": "crossing_line",
+              "position_style": "crossingLine"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l3_03",
+          "level": 3,
+          "type": "letter_formation",
+          "target_word": "बतख",
+          "prompt_audio_text": "बतख",
+          "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बतख",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "बतख",
+              "is_correct": false,
+              "distractor_tag": "missing_shirorekha",
+              "position_style": "missingShirorekha"
+            },
+            {
+              "id": "opt_3",
+              "text": "बतख",
+              "is_correct": false,
+              "distractor_tag": "letters_spread_apart",
+              "position_style": "lettersSpreadApart"
+            },
+            {
+              "id": "opt_4",
+              "text": "बतख",
+              "is_correct": false,
+              "distractor_tag": "uneven_letters",
+              "position_style": "unevenLetters"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l3_04",
+          "level": 3,
+          "type": "letter_formation",
+          "target_word": "दादी",
+          "prompt_audio_text": "दादी",
+          "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "दादी",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "दादी",
+              "is_correct": false,
+              "distractor_tag": "missing_shirorekha",
+              "position_style": "missingShirorekha"
+            },
+            {
+              "id": "opt_3",
+              "text": "दादी",
+              "is_correct": false,
+              "distractor_tag": "letters_spread_apart",
+              "position_style": "lettersSpreadApart"
+            },
+            {
+              "id": "opt_4",
+              "text": "दादी",
+              "is_correct": false,
+              "distractor_tag": "uneven_letters",
+              "position_style": "unevenLetters"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l3_05",
+          "level": 3,
+          "type": "fill_blank",
+          "prompt_audio_text": "मीना दूध पीती है।",
+          "prompt_label": "मीना ___ पीती है।",
+          "outcomes": [
+            "FS-HI-C10.4-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "दूध",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "कुर्सी",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "पेड़",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "जूता",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        }
+      ],
+      "level_4": [
+        {
+          "id": "hi_g1_l4_01",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "राजू ने छाता खोला। बाहर क्या हो रहा था?",
+          "prompt_label": "बाहर क्या हो रहा था?",
+          "outcomes": [
+            "FS-HI-C10.5-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बारिश",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "रात",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_3",
+              "text": "खाना",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "नींद",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l4_02",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "दादी ने कहा, दूध गरम है, धीरे पीना। धीरे क्यों पीना है?",
+          "prompt_label": "दूध धीरे क्यों पीना है?",
+          "outcomes": [
+            "FS-HI-C10.5-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "दूध गरम है",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "दूध ठंडा है",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_3",
+              "text": "दूध मीठा है",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            },
+            {
+              "id": "opt_4",
+              "text": "दूध कम है",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l4_03",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "मीना की बिल्ली भूखी है। बिल्ली को क्या चाहिए?",
+          "prompt_label": "बिल्ली को क्या चाहिए?",
+          "outcomes": [
+            "FS-HI-C10.5-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "खाना",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "खिलौना",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "छाता",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "जूता",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l4_04",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "रीना मेले में गई। उसने लाल गुब्बारा लिया। रीना कहाँ गई थी?",
+          "prompt_label": "रीना कहाँ गई थी?",
+          "outcomes": [
+            "FS-HI-C10.5-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "मेले में",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "स्कूल में",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            },
+            {
+              "id": "opt_3",
+              "text": "नदी पर",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            },
+            {
+              "id": "opt_4",
+              "text": "घर में",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            }
+          ]
+        },
+        {
+          "id": "hi_g1_l4_05",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "अमन ने पौधे को रोज़ पानी दिया। पौधा बड़ा हो गया। पौधा क्यों बड़ा हुआ?",
+          "prompt_label": "पौधा क्यों बड़ा हुआ?",
+          "outcomes": [
+            "FS-HI-C10.5-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "रोज़ पानी मिला",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "अमन सो गया",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_3",
+              "text": "पौधा टूट गया",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_4",
+              "text": "बिल्ली आई",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "about": "Class 2: words from Sarangi 2 themes (परिवार, रंग, हरी-भरी धरती, मित्रता, आकाश); all matras, short/long vowel pairs, first conjuncts; guessing word meaning from context.",
+      "level_1": [
+        {
+          "id": "hi_g2_l1_01",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "तितली",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🦋 तितली",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🦜 तोता",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🍅 टमाटर",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🍉 तरबूज",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l1_02",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "चूहा",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🐭 चूहा",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🐜 चींटी",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🐦 चिड़िया",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🐆 चीता",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l1_03",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "बिजली",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "⚡ बिजली",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "☁️ बादल",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🌧️ बारिश",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "❄️ बर्फ़",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l1_04",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "मेंढक",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🐸 मेंढक",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🐟 मछली",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🦚 मोर",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🐔 मुर्गी",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l1_05",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "सूरज",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "☀️ सूरज",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "⭐ सितारा",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🍎 सेब",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🐍 साँप",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        }
+      ],
+      "level_2": [
+        {
+          "id": "hi_g2_l2_01",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "चिड़िया",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "चिड़िया",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "चीड़िया",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_3",
+              "text": "चिड़ीया",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_4",
+              "text": "चड़िया",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l2_02",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "फूल",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "फूल",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "फुल",
+              "is_correct": false,
+              "distractor_tag": "short_long_u_oo"
+            },
+            {
+              "id": "opt_3",
+              "text": "फौल",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_4",
+              "text": "फूलल",
+              "is_correct": false,
+              "distractor_tag": "extra_letter"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l2_03",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "दोस्त",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "दोस्त",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "दोसत",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "दौस्त",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_4",
+              "text": "दोस्ट",
+              "is_correct": false,
+              "distractor_tag": "wrong_letter"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l2_04",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "बच्चा",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बच्चा",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "बचा",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "बचचा",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_4",
+              "text": "बच्छा",
+              "is_correct": false,
+              "distractor_tag": "wrong_letter"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l2_05",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "पत्ता",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "पत्ता",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "पतता",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "पात्ता",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_4",
+              "text": "पत्ती",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        }
+      ],
+      "level_3": [
+        {
+          "id": "hi_g2_l3_01",
+          "level": 3,
+          "type": "writing_position",
+          "target_word": "तितली",
+          "prompt_audio_text": "तितली",
+          "prompt_label": "कॉपी की लाइन पर कौन सा सही लिखा है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "तितली",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "तितली",
+              "is_correct": false,
+              "distractor_tag": "floating_above",
+              "position_style": "floatingAbove"
+            },
+            {
+              "id": "opt_3",
+              "text": "तितली",
+              "is_correct": false,
+              "distractor_tag": "sinking_below",
+              "position_style": "sinkingBelow"
+            },
+            {
+              "id": "opt_4",
+              "text": "तितली",
+              "is_correct": false,
+              "distractor_tag": "crossing_line",
+              "position_style": "crossingLine"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l3_02",
+          "level": 3,
+          "type": "letter_formation",
+          "target_word": "बादल",
+          "prompt_audio_text": "बादल",
+          "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बादल",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "बादल",
+              "is_correct": false,
+              "distractor_tag": "missing_shirorekha",
+              "position_style": "missingShirorekha"
+            },
+            {
+              "id": "opt_3",
+              "text": "बादल",
+              "is_correct": false,
+              "distractor_tag": "letters_spread_apart",
+              "position_style": "lettersSpreadApart"
+            },
+            {
+              "id": "opt_4",
+              "text": "बादल",
+              "is_correct": false,
+              "distractor_tag": "uneven_letters",
+              "position_style": "unevenLetters"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l3_03",
+          "level": 3,
+          "type": "letter_formation",
+          "target_word": "चूहा",
+          "prompt_audio_text": "चूहा",
+          "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+          "outcomes": [
+            "FS-HI-C10.8-G1"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "चूहा",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "चूहा",
+              "is_correct": false,
+              "distractor_tag": "missing_shirorekha",
+              "position_style": "missingShirorekha"
+            },
+            {
+              "id": "opt_3",
+              "text": "चूहा",
+              "is_correct": false,
+              "distractor_tag": "letters_spread_apart",
+              "position_style": "lettersSpreadApart"
+            },
+            {
+              "id": "opt_4",
+              "text": "चूहा",
+              "is_correct": false,
+              "distractor_tag": "uneven_letters",
+              "position_style": "unevenLetters"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l3_04",
+          "level": 3,
+          "type": "fill_blank",
+          "prompt_audio_text": "शेर और चूहा पक्के दोस्त बन गए।",
+          "prompt_label": "शेर और चूहा पक्के ___ बन गए।",
+          "outcomes": [
+            "FS-HI-C10.4-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "दोस्त",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "पत्ते",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "बादल",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "पहिए",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l3_05",
+          "level": 3,
+          "type": "fill_blank",
+          "prompt_audio_text": "किसान ने खेत में बीज बोए।",
+          "prompt_label": "किसान ने खेत में ___ बोए।",
+          "outcomes": [
+            "FS-HI-C10.4-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बीज",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "जूते",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "बर्तन",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "बादल",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        }
+      ],
+      "level_4": [
+        {
+          "id": "hi_g2_l4_01",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "बादल गरजे और झमाझम बारिश होने लगी। झमाझम का क्या अर्थ है?",
+          "prompt_label": "‘झमाझम’ का क्या अर्थ है?",
+          "outcomes": [
+            "FS-HI-C9.7-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बहुत तेज़",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "बहुत धीरे",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_3",
+              "text": "बिल्कुल नहीं",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_4",
+              "text": "रात में",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l4_02",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "चूहे ने जाल काटा और शेर आज़ाद हो गया। आज़ाद का क्या अर्थ है?",
+          "prompt_label": "‘आज़ाद’ का क्या अर्थ है?",
+          "outcomes": [
+            "FS-HI-C9.7-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "छूट गया",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "सो गया",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            },
+            {
+              "id": "opt_3",
+              "text": "डर गया",
+              "is_correct": false,
+              "distractor_tag": "unrelated_emotion"
+            },
+            {
+              "id": "opt_4",
+              "text": "भूखा हो गया",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l4_03",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "नीमा की दादी बहुत थकी थी, इसलिए वह जल्दी सो गई। दादी जल्दी क्यों सोई?",
+          "prompt_label": "दादी जल्दी क्यों सोई?",
+          "outcomes": [
+            "FS-HI-C10.5-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "वह थकी थी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "उसे भूख लगी",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            },
+            {
+              "id": "opt_3",
+              "text": "बारिश हुई",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            },
+            {
+              "id": "opt_4",
+              "text": "मेहमान आए",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l4_04",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "पेड़ के नीचे ठंडी छाया थी। बच्चे वहीं बैठ गए। छाया का क्या अर्थ है?",
+          "prompt_label": "‘छाया’ का क्या अर्थ है?",
+          "outcomes": [
+            "FS-HI-C9.7-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "जहाँ धूप न आए",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "पानी",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            },
+            {
+              "id": "opt_3",
+              "text": "फल",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            },
+            {
+              "id": "opt_4",
+              "text": "शोर",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            }
+          ]
+        },
+        {
+          "id": "hi_g2_l4_05",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "मोहन ने गीली मिट्टी में बीज बोया। कुछ दिन बाद वहाँ क्या निकलेगा?",
+          "prompt_label": "कुछ दिन बाद वहाँ क्या निकलेगा?",
+          "outcomes": [
+            "FS-HI-C10.5-G2"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "छोटा पौधा",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "पत्थर",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_3",
+              "text": "मछली",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_4",
+              "text": "पानी",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "about": "Class 3: words from Veena themes (हमारा पर्यावरण, हमारे मित्र, आओ खेलें, अपना-अपना काम, हमारा देश); conjuncts, र forms, bindu/chandrabindu; vocabulary in context, inference and main idea. Conjunct reading is a Class 2 outcome (FS C-10.3); at Class 3 the bank checks it is secure.",
+      "level_1": [
+        {
+          "id": "hi_g3_l1_01",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "चश्मा",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG4-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "👓 चश्मा",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🌙 चंद्रमा",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🥄 चम्मच",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🔑 चाबी",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l1_02",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "ट्रैक्टर",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG4-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🚜 ट्रैक्टर",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🚚 ट्रक",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🚆 ट्रेन",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🍅 टमाटर",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l1_03",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "स्टेशन",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG4-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "🚉 स्टेशन",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🏫 स्कूल",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🛣️ सड़क",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "🚲 साइकिल",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l1_04",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "पत्र",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG4-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "✉️ पत्र",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "📚 पुस्तक",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "✏️ पेंसिल",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "👛 पर्स",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l1_05",
+          "level": 1,
+          "type": "sound_recognition",
+          "prompt_audio_text": "अंगूठी",
+          "prompt_label": "सुने गए शब्द का सही चित्र चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG4-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "💍 अंगूठी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "🍇 अंगूर",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_3",
+              "text": "🥚 अंडा",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "👁️ आँख",
+              "is_correct": false,
+              "distractor_tag": "same_first_sound"
+            }
+          ]
+        }
+      ],
+      "level_2": [
+        {
+          "id": "hi_g3_l2_01",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "प्रकृति",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "प्रकृति",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "परकृति",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "प्रकृती",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_4",
+              "text": "पृकति",
+              "is_correct": false,
+              "distractor_tag": "r_form"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l2_02",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "मित्र",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "मित्र",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "मितर",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "मीत्र",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_4",
+              "text": "मित्रा",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l2_03",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "रस्साकशी",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "रस्साकशी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "रसाकशी",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "रस्साकसी",
+              "is_correct": false,
+              "distractor_tag": "similar_sound"
+            },
+            {
+              "id": "opt_4",
+              "text": "रस्सकशी",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l2_04",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "पौधा",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "पौधा",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "पोधा",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            },
+            {
+              "id": "opt_3",
+              "text": "पौदा",
+              "is_correct": false,
+              "distractor_tag": "wrong_letter"
+            },
+            {
+              "id": "opt_4",
+              "text": "पैधा",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l2_05",
+          "level": 2,
+          "type": "spelling",
+          "prompt_audio_text": "विद्यालय",
+          "prompt_label": "सही वर्तनी चुनें",
+          "outcomes": [
+            "FS-HI-C10.3-G2",
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "विद्यालय",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "विदयालय",
+              "is_correct": false,
+              "distractor_tag": "dropped_conjunct"
+            },
+            {
+              "id": "opt_3",
+              "text": "वीद्यालय",
+              "is_correct": false,
+              "distractor_tag": "short_long_i_ee"
+            },
+            {
+              "id": "opt_4",
+              "text": "विद्यलय",
+              "is_correct": false,
+              "distractor_tag": "wrong_matra"
+            }
+          ]
+        }
+      ],
+      "level_3": [
+        {
+          "id": "hi_g3_l3_01",
+          "level": 3,
+          "type": "writing_position",
+          "target_word": "पुस्तक",
+          "prompt_audio_text": "पुस्तक",
+          "prompt_label": "कॉपी की लाइन पर कौन सा सही लिखा है?",
+          "outcomes": [
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "पुस्तक",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "पुस्तक",
+              "is_correct": false,
+              "distractor_tag": "floating_above",
+              "position_style": "floatingAbove"
+            },
+            {
+              "id": "opt_3",
+              "text": "पुस्तक",
+              "is_correct": false,
+              "distractor_tag": "sinking_below",
+              "position_style": "sinkingBelow"
+            },
+            {
+              "id": "opt_4",
+              "text": "पुस्तक",
+              "is_correct": false,
+              "distractor_tag": "crossing_line",
+              "position_style": "crossingLine"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l3_02",
+          "level": 3,
+          "type": "letter_formation",
+          "target_word": "मित्र",
+          "prompt_audio_text": "मित्र",
+          "prompt_label": "कौन सा शब्द सबसे साफ़ और सही बना है?",
+          "outcomes": [
+            "SE-HI-CG3-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "मित्र",
+              "is_correct": true,
+              "distractor_tag": null,
+              "position_style": "correctHanging"
+            },
+            {
+              "id": "opt_2",
+              "text": "मित्र",
+              "is_correct": false,
+              "distractor_tag": "missing_shirorekha",
+              "position_style": "missingShirorekha"
+            },
+            {
+              "id": "opt_3",
+              "text": "मित्र",
+              "is_correct": false,
+              "distractor_tag": "letters_spread_apart",
+              "position_style": "lettersSpreadApart"
+            },
+            {
+              "id": "opt_4",
+              "text": "मित्र",
+              "is_correct": false,
+              "distractor_tag": "uneven_letters",
+              "position_style": "unevenLetters"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l3_03",
+          "level": 3,
+          "type": "fill_blank",
+          "prompt_audio_text": "बया तिनकों से अपना घोंसला बुनती है।",
+          "prompt_label": "बया तिनकों से अपना ___ बुनती है।",
+          "outcomes": [
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "घोंसला",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "पत्र",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "पहिया",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "चश्मा",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l3_04",
+          "level": 3,
+          "type": "fill_blank",
+          "prompt_audio_text": "चंद्रयान चाँद की ओर गया।",
+          "prompt_label": "चंद्रयान ___ की ओर गया।",
+          "outcomes": [
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "चाँद",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "समुद्र",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "जंगल",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "बाज़ार",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l3_05",
+          "level": 3,
+          "type": "fill_blank",
+          "prompt_audio_text": "रस्साकशी में दोनों टोलियाँ रस्सी खींचती हैं।",
+          "prompt_label": "रस्साकशी में दोनों टोलियाँ ___ खींचती हैं।",
+          "outcomes": [
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "रस्सी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "किताब",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_3",
+              "text": "पानी",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            },
+            {
+              "id": "opt_4",
+              "text": "पेड़",
+              "is_correct": false,
+              "distractor_tag": "illogical_object"
+            }
+          ]
+        }
+      ],
+      "level_4": [
+        {
+          "id": "hi_g3_l4_01",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "दादी ने सड़क के किनारे पेड़ लगाए और उन्हें अपने बच्चों की तरह पाला। यहाँ पाला का क्या अर्थ है?",
+          "prompt_label": "यहाँ ‘पाला’ का क्या अर्थ है?",
+          "outcomes": [
+            "SE-HI-CG4-G3",
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "देखभाल करके बड़ा किया",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "काट दिया",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_3",
+              "text": "बेच दिया",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_4",
+              "text": "भूल गई",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l4_02",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "रस्साकशी में दोनों टोलियों ने पूरी ताकत लगाई, पर रस्सी टस से मस न हुई। इसका क्या अर्थ है?",
+          "prompt_label": "‘टस से मस न हुई’ का क्या अर्थ है?",
+          "outcomes": [
+            "SE-HI-CG4-G3",
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "रस्सी ज़रा भी नहीं हिली",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "रस्सी टूट गई",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_3",
+              "text": "एक टोली जीत गई",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_4",
+              "text": "खेल बंद हो गया",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l4_03",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "आसमान में काले बादल छा गए और ठंडी हवा चलने लगी। किसान ने जल्दी से अनाज ढक दिया। किसान ने अनाज क्यों ढका?",
+          "prompt_label": "किसान ने अनाज क्यों ढका?",
+          "outcomes": [
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "बारिश आने वाली थी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "धूप बहुत तेज़ थी",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_3",
+              "text": "अनाज बिक गया था",
+              "is_correct": false,
+              "distractor_tag": "not_in_story"
+            },
+            {
+              "id": "opt_4",
+              "text": "रात हो गई थी",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l4_04",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "गीदड़ ने चतुराई से शेर को कुएँ तक पहुँचाया। चतुराई का क्या अर्थ है?",
+          "prompt_label": "‘चतुराई’ का क्या अर्थ है?",
+          "outcomes": [
+            "SE-HI-CG4-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "होशियारी",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "डर",
+              "is_correct": false,
+              "distractor_tag": "unrelated_emotion"
+            },
+            {
+              "id": "opt_3",
+              "text": "दया",
+              "is_correct": false,
+              "distractor_tag": "unrelated_emotion"
+            },
+            {
+              "id": "opt_4",
+              "text": "आलस",
+              "is_correct": false,
+              "distractor_tag": "unrelated_quality"
+            }
+          ]
+        },
+        {
+          "id": "hi_g3_l4_05",
+          "level": 4,
+          "type": "meaning_inference",
+          "prompt_audio_text": "मीरा बोली, सब अपना-अपना काम करें, तो कोई काम भारी नहीं लगता। मीरा क्या कहना चाहती है?",
+          "prompt_label": "मीरा क्या कहना चाहती है?",
+          "outcomes": [
+            "SE-HI-CG2-G3"
+          ],
+          "status": "awaiting teacher review",
+          "options": [
+            {
+              "id": "opt_1",
+              "text": "मिलकर काम करने से काम आसान होता है",
+              "is_correct": true,
+              "distractor_tag": null
+            },
+            {
+              "id": "opt_2",
+              "text": "काम नहीं करना चाहिए",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            },
+            {
+              "id": "opt_3",
+              "text": "केवल बड़े काम करें",
+              "is_correct": false,
+              "distractor_tag": "wrong_inference"
+            },
+            {
+              "id": "opt_4",
+              "text": "सारा काम एक ही करे",
+              "is_correct": false,
+              "distractor_tag": "opposite_meaning"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hindi_by_grade_note": "Class-wise Hindi items for Classes 1-3, tagged with the NCERT outcome each one checks (see assets/curriculum/hindi_outcomes_g1_3.json). Themes follow the NCERT textbooks' units; every sentence and word list is original Samajh content, not textbook text. Other classes and English use the shared bank. All items await teacher review."
+}

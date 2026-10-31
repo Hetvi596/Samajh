@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "status": "provisional",
+  "note": "Needs linguist/teacher verification. Seeded strictly from existing Devanagari phonological rules.",
+  "regions": {
+    "awadhi_bhojpuri": {
+      "region_id": "awadhi_bhojpuri",
+      "name_en": "Awadhi / Bhojpuri (UP & Bihar)",
+      "name_hi": "अवधी / भोजपुरी (उत्तर प्रदेश व बिहार)",
+      "status": "provisional",
+      "entries": {
+        "हवा": {
+          "standard": "हवा",
+          "accepted_variants": ["हबा"],
+          "rule": "व -> ब (v to b phonological shift)",
+          "status": "needs linguist/teacher verification"
+        },
+        "वह": {
+          "standard": "वह",
+          "accepted_variants": ["बह"],
+          "rule": "व -> ब (v to b phonological shift)",
+          "status": "needs linguist/teacher verification"
+        },
+        "शाबाश": {
+          "standard": "शाबाश",
+          "accepted_variants": ["साबास"],
+          "rule": "श/ष -> स (sibilant merger)",
+          "status": "needs linguist/teacher verification"
+        },
+        "छिड़": {
+          "standard": "छिड़",
+          "accepted_variants": ["छिर"],
+          "rule": "ड़ -> र (flap shift)",
+          "status": "needs linguist/teacher verification"
+        },
+        "पेड़": {
+          "standard": "पेड़",
+          "accepted_variants": ["पेर"],
+          "rule": "ड़ -> र (flap shift)",
+          "status": "needs linguist/teacher verification"
+        },
+        "कारण": {
+          "standard": "कारण",
+          "accepted_variants": ["कारन"],
+          "rule": "ण -> न (retroflex nasal to dental)",
+          "status": "needs linguist/teacher verification"
+        },
+        "ऋतु": {
+          "standard": "ऋतु",
+          "accepted_variants": ["रितु"],
+          "rule": "ऋ -> रि (vocalic r realization)",
+          "status": "needs linguist/teacher verification"
+        }
+      }
+    },
+    "rajasthani": {
+      "region_id": "rajasthani",
+      "name_en": "Rajasthani",
+      "name_hi": "राजस्थानी",
+      "status": "provisional",
+      "entries": {
+        "शाबाश": {
+          "standard": "शाबाश",
+          "accepted_variants": ["साबास"],
+          "rule": "श/ष -> स (sibilant merger)",
+          "status": "needs linguist/teacher verification"
+        },
+        "छिड़": {
+          "standard": "छिड़",
+          "accepted_variants": ["छिड"],
+          "rule": "ड़ -> ड (retroflex stop)",
+          "status": "needs linguist/teacher verification"
+        },
+        "पेड़": {
+          "standard": "पेड़",
+          "accepted_variants": ["पेड"],
+          "rule": "ड़ -> ड (retroflex stop)",
+          "status": "needs linguist/teacher verification"
+        },
+        "कारण": {
+          "standard": "कारण",
+          "accepted_variants": ["कारन"],
+          "rule": "ण -> न (retroflex nasal to dental)",
+          "status": "needs linguist/teacher verification"
+        },
+        "ऋतु": {
+          "standard": "ऋतु",
+          "accepted_variants": ["रितु"],
+          "rule": "ऋ -> रि (vocalic r realization)",
+          "status": "needs linguist/teacher verification"
+        }
+      }
+    },
+    "marathi_influenced": {
+      "region_id": "marathi_influenced",
+      "name_en": "Marathi-influenced Hindi",
+      "name_hi": "मराठी-प्रभावित हिंदी",
+      "status": "provisional",
+      "entries": {
+        "ऋतु": {
+          "standard": "ऋतु",
+          "accepted_variants": ["रुतु"],
+          "rule": "ऋ -> रु (Marathi vocalic realization)",
+          "status": "needs linguist/teacher verification"
+        },
+        "शाबाश": {
+          "standard": "शाबाश",
+          "accepted_variants": ["साबास"],
+          "rule": "श/ष -> स (sibilant merger)",
+          "status": "needs linguist/teacher verification"
+        },
+        "हवा": {
+          "standard": "हवा",
+          "accepted_variants": ["हबा"],
+          "rule": "व -> ब (v to b shift)",
+          "status": "needs linguist/teacher verification"
+        }
+      }
+    },
+    "punjabi_influenced": {
+      "region_id": "punjabi_influenced",
+      "name_en": "Punjabi-influenced Hindi",
+      "name_hi": "पंजाबी-प्रभावित हिंदी",
+      "status": "provisional",
+      "entries": {
+        "कारण": {
+          "standard": "कारण",
+          "accepted_variants": ["कारन"],
+          "rule": "ण -> न (retroflex nasal to dental)",
+          "status": "needs linguist/teacher verification"
+        },
+        "शाबाश": {
+          "standard": "शाबाश",
+          "accepted_variants": ["साबास"],
+          "rule": "श/ष -> स (sibilant merger)",
+          "status": "needs linguist/teacher verification"
+        },
+        "ऋतु": {
+          "standard": "ऋतु",
+          "accepted_variants": ["रितु"],
+          "rule": "ऋ -> रि (vocalic r realization)",
+          "status": "needs linguist/teacher verification"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+name: samajh
+description: "An offline Android app that helps Class 1 to 5 teachers check reading, understanding, and writing."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management and routing
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+
+  # Encrypted SQLite database
+  drift: ^2.18.0
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # Security and cryptographic primitives
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.3
+  cryptography: ^2.7.0
+
+  # Media: Audio recording & playback (no camera or image storage)
+  record: ^7.1.2
+  flutter_tts: ^4.2.5
+  just_audio: ^0.9.38
+
+  # Printing & PDF generation (rendered through Flutter text engine)
+  printing: ^5.13.1
+  pdf: ^3.11.0
+
+  # Internationalization & utils
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+
+  # Supabase cloud sync (off by default; activated only when teacher signs in)
+  supabase_flutter: ^2.8.4
+  flutter_dotenv: ^5.2.1
+  share_plus: ^12.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  drift_dev: ^2.18.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - .env
+    - assets/passages/
+    - assets/curriculum/
+    - assets/practice/
+    - assets/config/
+    - assets/audio_prompts/
+    - assets/images/
+    - assets/models/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+          weight: 800
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: assets/fonts/noto_sans_devanagari/NotoSansDevanagari-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/noto_sans_devanagari/NotoSansDevanagari-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/noto_sans_devanagari/NotoSansDevanagari-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/noto_sans_devanagari/NotoSansDevanagari-Bold.ttf
+          weight: 700

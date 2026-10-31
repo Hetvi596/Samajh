@@ -1,0 +1,898 @@
+{
+  "version": "1.0",
+  "review_status": "pending_teacher_review",
+  "note": "Original passages aligned with NIPUN, NCERT and state learning milestones.",
+  "passages": [
+    {
+      "id": "p_g1_01",
+      "grade": 1,
+      "curriculum": "all",
+      "type": "sentences",
+      "title_hi": "अमन और आम",
+      "title_en": "Aman and Mango",
+      "text_hi": "अमन घर चल। आम चख। नल पर जल भर। छत पर मत चढ़। बस पर चढ़ कर चल।",
+      "text_en": "Aman go home. Taste the mango. Fill water at the tap. Do not climb on the roof. Get on the bus and go.",
+      "word_count": 18,
+      "difficulty_level": "easy",
+      "outcome_codes": [
+        "H102",
+        "H103"
+      ],
+      "skills": [
+        "basic_decoding",
+        "sentence_reading"
+      ],
+      "retell_points": [
+        "अमन को घर चलने को कहा गया",
+        "अमन को आम चखने को कहा",
+        "नल पर पानी भरने की बात",
+        "बस पर चढ़कर जाने को कहा"
+      ],
+      "retell_points_en": [
+        "Aman was asked to go home",
+        "Aman was asked to taste the mango",
+        "Talk of filling water at the tap",
+        "Asked to take the bus and go"
+      ],
+      "questions": [
+        {
+          "id": "q_g1_01_1",
+          "type": "fact",
+          "question_hi": "अमन को क्या चखने को कहा गया?",
+          "question_en": "What was Aman asked to taste?",
+          "expected_answer_hi": "आम",
+          "expected_answer_en": "Mango",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G1"
+        },
+        {
+          "id": "q_g1_01_2",
+          "type": "fact",
+          "question_hi": "जल कहाँ भरना है?",
+          "question_en": "Where to fill water?",
+          "expected_answer_hi": "नल पर",
+          "expected_answer_en": "At the tap",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G1"
+        },
+        {
+          "id": "q_g1_01_3",
+          "type": "why_how",
+          "outcome": "FS-HI-C10.5-G1",
+          "question_hi": "छत पर क्यों नहीं चढ़ना चाहिए?",
+          "question_en": "Why should one not climb on the roof?",
+          "expected_answer_hi": "गिरकर चोट लग सकती है",
+          "expected_answer_en": "One could fall and get hurt",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "अमन",
+        "घर",
+        "आम",
+        "जल",
+        "बस"
+      ],
+      "dictation_fallback_words_en": [
+        "Aman",
+        "home",
+        "mango",
+        "water",
+        "bus"
+      ],
+      "review_status": "pending_teacher_review",
+      "ncert_outcomes": [
+        "FS-HI-C10.3-G1",
+        "FS-HI-C10.4-G1"
+      ]
+    },
+    {
+      "id": "p_g1_02",
+      "grade": 1,
+      "curriculum": "all",
+      "type": "sentences",
+      "title_hi": "मीना की गुड़िया",
+      "title_en": "Meena's Doll",
+      "text_hi": "मीना की एक गुड़िया है। गुड़िया लाल फ्रॉक पहनती है। मीना उसे रोज नहलाती है। वह बहुत खुश रहती है।",
+      "text_en": "Meena has a doll. The doll wears a red frock. Meena bathes her every day. She stays very happy.",
+      "word_count": 20,
+      "difficulty_level": "easy",
+      "outcome_codes": [
+        "H102",
+        "H103"
+      ],
+      "skills": [
+        "matra_decoding",
+        "short_sentences"
+      ],
+      "retell_points": [
+        "मीना के पास एक गुड़िया है",
+        "गुड़िया लाल रंग की फ्रॉक पहनती है",
+        "मीना गुड़िया को रोज नहलाती है",
+        "गुड़िया खुश रहती है"
+      ],
+      "retell_points_en": [
+        "Meena has a doll",
+        "The doll wears a red frock",
+        "Meena bathes the doll daily",
+        "The doll stays happy"
+      ],
+      "questions": [
+        {
+          "id": "q_g1_02_1",
+          "type": "fact",
+          "question_hi": "मीना के पास क्या है?",
+          "question_en": "What does Meena have?",
+          "expected_answer_hi": "गुड़िया",
+          "expected_answer_en": "Doll",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G1"
+        },
+        {
+          "id": "q_g1_02_2",
+          "type": "fact",
+          "question_hi": "गुड़िया का फ्रॉक किस रंग का है?",
+          "question_en": "What color is the doll's frock?",
+          "expected_answer_hi": "लाल",
+          "expected_answer_en": "Red",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G1"
+        },
+        {
+          "id": "q_g1_02_3",
+          "type": "why_how",
+          "outcome": "FS-HI-C10.5-G1",
+          "question_hi": "मीना अपनी गुड़िया का ध्यान कैसे रखती है?",
+          "question_en": "How does Meena take care of her doll?",
+          "expected_answer_hi": "उसे रोज़ नहलाती है",
+          "expected_answer_en": "She bathes it every day",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "मीना",
+        "गुड़िया",
+        "लाल",
+        "रोज",
+        "खुश"
+      ],
+      "dictation_fallback_words_en": [
+        "Meena",
+        "doll",
+        "red",
+        "daily",
+        "happy"
+      ],
+      "review_status": "pending_teacher_review",
+      "ncert_outcomes": [
+        "FS-HI-C10.3-G1",
+        "FS-HI-C10.4-G1",
+        "FS-HI-C10.5-G1"
+      ]
+    },
+    {
+      "id": "p_g2_01",
+      "grade": 2,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "प्यासा कौआ और मटका",
+      "title_en": "The Thirsty Crow",
+      "text_hi": "एक कौआ बहुत प्यासा था। वह पानी की तलाश में इधर-उधर उड़ रहा था। उसने एक बगीचे में घड़ा देखा। घड़े में पानी बहुत नीचे था। कौवे की चोंच पानी तक नहीं पहुँच सकी। उसने पास पड़े छोटे कंकड़ उठाए और घड़े में डाले। पानी ऊपर आ गया। कौवे ने पानी पिया और उड़ गया।",
+      "text_en": "A crow was very thirsty. He was flying here and there in search of water. He saw a pitcher in a garden. The water was very low in the pitcher. The crow's beak could not reach the water. He picked up small pebbles lying nearby and dropped them into the pitcher. The water rose up. The crow drank the water and flew away.",
+      "word_count": 55,
+      "difficulty_level": "medium",
+      "outcome_codes": [
+        "H201",
+        "H206",
+        "H208"
+      ],
+      "skills": [
+        "matra_fluency",
+        "cause_effect"
+      ],
+      "retell_points": [
+        "कौआ बहुत प्यासा था और पानी खोज रहा था",
+        "उसने बगीचे में घड़ा देखा",
+        "घड़े में पानी बहुत कम और नीचे था",
+        "चोंच नहीं पहुँची तो उसने कंकड़ डाले",
+        "पानी ऊपर आ गया और कौवे ने पिया"
+      ],
+      "retell_points_en": [
+        "The crow was very thirsty and searched for water",
+        "He spotted a pitcher in a garden",
+        "The water in the pitcher was very low",
+        "His beak could not reach so he dropped pebbles",
+        "The water rose up and the crow drank it"
+      ],
+      "questions": [
+        {
+          "id": "q_g2_01_1",
+          "type": "fact",
+          "question_hi": "कौआ बगीचे में क्या ढूंढ रहा था?",
+          "question_en": "What was the crow searching for in the garden?",
+          "expected_answer_hi": "पानी",
+          "expected_answer_en": "Water",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G2"
+        },
+        {
+          "id": "q_g2_01_4",
+          "type": "word_meaning",
+          "outcome": "FS-HI-C9.7-G2",
+          "question_hi": "‘तलाश’ शब्द का क्या अर्थ है?",
+          "question_en": "What does 'search' mean here?",
+          "expected_answer_hi": "खोज / ढूँढना",
+          "expected_answer_en": "Looking for something",
+          "points": 1
+        },
+        {
+          "id": "q_g2_01_2",
+          "type": "why_how",
+          "question_hi": "कौवे ने घड़े में कंकड़ क्यों डाले?",
+          "question_en": "Why did the crow put pebbles in the pitcher?",
+          "expected_answer_hi": "पानी ऊपर लाने के लिए",
+          "expected_answer_en": "To bring the water up",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G2"
+        },
+        {
+          "id": "q_g2_01_3",
+          "type": "main_idea",
+          "question_hi": "इस कहानी से हमें क्या सीख मिलती है?",
+          "question_en": "What do we learn from this story?",
+          "expected_answer_hi": "मेहनत और समझदारी से काम बनता है",
+          "expected_answer_en": "Hard work and clever thinking bring success",
+          "points": 1,
+          "outcome": "FS-HI-C10.5-G2"
+        }
+      ],
+      "dictation_fallback_words": [
+        "प्यासा",
+        "घड़ा",
+        "चोंच",
+        "कंकड़",
+        "बगीचा"
+      ],
+      "dictation_fallback_words_en": [
+        "thirsty",
+        "pitcher",
+        "beak",
+        "pebbles",
+        "garden"
+      ],
+      "review_status": "pending_teacher_review",
+      "ncert_outcomes": [
+        "FS-HI-C10.3-G2",
+        "FS-HI-C10.4-G2",
+        "FS-HI-C10.5-G2",
+        "FS-HI-C9.7-G2"
+      ],
+      "familiarity_note": "Well-known fable: a child may know the story already, which can make the questions easier than an unfamiliar text."
+    },
+    {
+      "id": "p_g2_02",
+      "grade": 2,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "एक छाता, दो दोस्त",
+      "title_en": "One Umbrella, Two Friends",
+      "text_hi": "नीना और सोनू पक्के दोस्त हैं। दोनों रोज़ साथ स्कूल जाते हैं। एक दिन छुट्टी के समय आसमान में काले बादल छा गए। ठंडी हवा चलने लगी और बूँदें गिरने लगीं। नीना के पास छाता था, पर सोनू के पास नहीं था। नीना ने कहा, आओ, एक ही छाते में चलें। दोनों हँसते हुए घर पहुँचे। रास्ते में उन्होंने पानी में कागज़ की नाव भी चलाई।",
+      "text_en": "Neena and Sonu are close friends. They go to school together every day. One day, at home time, dark clouds filled the sky. A cool wind blew and drops began to fall. Neena had an umbrella, but Sonu did not. Neena said, come, let us walk under one umbrella. Both reached home laughing. On the way they also sailed a paper boat in the water.",
+      "difficulty_level": "medium",
+      "outcome_codes": [
+        "H201",
+        "H206",
+        "H208"
+      ],
+      "ncert_outcomes": [
+        "FS-HI-C10.3-G2",
+        "FS-HI-C10.4-G2",
+        "FS-HI-C10.5-G2",
+        "FS-HI-C9.7-G2"
+      ],
+      "theme": "Sarangi 2 units मित्रता and आकाश (theme only)",
+      "skills": [
+        "conjuncts",
+        "story_reading",
+        "context_meaning"
+      ],
+      "retell_points": [
+        "नीना और सोनू पक्के दोस्त हैं",
+        "छुट्टी के समय काले बादल छा गए और बारिश होने लगी",
+        "सोनू के पास छाता नहीं था",
+        "नीना ने सोनू को अपने छाते में बुला लिया",
+        "दोनों ने रास्ते में कागज़ की नाव चलाई"
+      ],
+      "retell_points_en": [
+        "Neena and Sonu are close friends",
+        "At home time dark clouds came and it began to rain",
+        "Sonu had no umbrella",
+        "Neena asked Sonu to share her umbrella",
+        "They sailed a paper boat on the way"
+      ],
+      "questions": [
+        {
+          "id": "q_g2_02_1",
+          "type": "fact",
+          "outcome": "FS-HI-C10.5-G2",
+          "question_hi": "किसके पास छाता नहीं था?",
+          "question_en": "Who did not have an umbrella?",
+          "expected_answer_hi": "सोनू के पास",
+          "expected_answer_en": "Sonu",
+          "points": 1
+        },
+        {
+          "id": "q_g2_02_2",
+          "type": "word_meaning",
+          "outcome": "FS-HI-C9.7-G2",
+          "question_hi": "‘पक्के दोस्त’ का क्या मतलब है?",
+          "question_en": "What does 'close friends' mean?",
+          "expected_answer_hi": "बहुत अच्छे दोस्त",
+          "expected_answer_en": "Very good friends",
+          "points": 1
+        },
+        {
+          "id": "q_g2_02_3",
+          "type": "why_how",
+          "outcome": "FS-HI-C10.5-G2",
+          "question_hi": "नीना ने सोनू को अपने छाते में क्यों बुलाया?",
+          "question_en": "Why did Neena call Sonu under her umbrella?",
+          "expected_answer_hi": "सोनू के पास छाता नहीं था / वह भीग न जाए",
+          "expected_answer_en": "Sonu had no umbrella / so he would not get wet",
+          "points": 1
+        },
+        {
+          "id": "q_g2_02_4",
+          "type": "main_idea",
+          "outcome": "FS-HI-C10.5-G2",
+          "question_hi": "इस कहानी से दोस्ती के बारे में क्या पता चलता है?",
+          "question_en": "What does this story tell us about friendship?",
+          "expected_answer_hi": "दोस्त एक-दूसरे की मदद करते हैं / चीज़ें बाँटते हैं",
+          "expected_answer_en": "Friends help each other / share things",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "दोस्त",
+        "स्कूल",
+        "बादल",
+        "छाता",
+        "नाव"
+      ],
+      "dictation_fallback_words_en": [
+        "friend",
+        "school",
+        "cloud",
+        "umbrella",
+        "boat"
+      ],
+      "review_status": "pending_teacher_review",
+      "word_count": 66
+    },
+    {
+      "id": "p_g3_01",
+      "grade": 3,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "सूरज और हवा की शर्त",
+      "title_en": "Sun and Wind",
+      "text_hi": "एक बार सूरज और हवा में बहस छिड़ गई। हवा ने कहा, 'मैं तुमसे अधिक बलवान हूँ।' सूरज ने मुस्कुराकर कहा, 'देखते हैं।' तभी रास्ते में एक आदमी कोट पहनकर जा रहा था। हवा ने कहा, 'जो इस आदमी का कोट उतरवा देगा, वही जीतेगा।' हवा तेज़ बहने लगी। आदमी ने कोट कसकर पकड़ लिया। अब सूरज तपने लगा। गर्मी बढ़ी तो आदमी ने कोट उतार दिया। हवा ने हार मान ली।",
+      "text_en": "Once an argument broke out between the sun and the wind. The wind said, 'I am stronger than you.' The sun smiled and said, 'Let us see.' Just then a man wearing a coat was walking on the road. The wind said, 'Whoever makes this man take off his coat shall win.' The wind blew hard. The man wrapped his coat tightly. Then the sun shone bright. As heat increased, the man took off his coat. The wind accepted defeat.",
+      "word_count": 72,
+      "difficulty_level": "standard",
+      "outcome_codes": [
+        "H301",
+        "H306",
+        "H308"
+      ],
+      "skills": [
+        "conjuncts",
+        "fluency_60wpm",
+        "comprehension_4q"
+      ],
+      "retell_points": [
+        "सूरज और हवा में बलवान होने पर बहस हुई",
+        "रास्ते में एक आदमी कोट पहनकर जा रहा था",
+        "कोट उतरवाने की शर्त रखी गई",
+        "हवा तेज़ चली तो आदमी ने कोट कस लिया",
+        "सूरज तपा तो गर्मी से आदमी ने कोट उतार दिया",
+        "हवा ने अपनी हार मान ली"
+      ],
+      "retell_points_en": [
+        "Sun and wind argued about who was stronger",
+        "A man wearing a coat was walking on the road",
+        "A challenge was set to remove the coat",
+        "Wind blew hard so the man held the coat tight",
+        "Sun shone bright and the man removed his coat",
+        "Wind accepted defeat"
+      ],
+      "questions": [
+        {
+          "id": "q_g3_01_1",
+          "type": "fact",
+          "question_hi": "सूरज और हवा के बीच किस बात पर बहस हुई?",
+          "question_en": "What did the sun and wind argue about?",
+          "expected_answer_hi": "अधिक बलवान होने पर",
+          "expected_answer_en": "About who was stronger",
+          "points": 1,
+          "outcome": "SE-HI-CG2-G3"
+        },
+        {
+          "id": "q_g3_01_2",
+          "type": "word_meaning",
+          "question_hi": "'बलवान' शब्द का क्या अर्थ है?",
+          "question_en": "What does the word 'stronger' mean?",
+          "expected_answer_hi": "ताकतवर / शक्तिशाली",
+          "expected_answer_en": "Having great power or strength / powerful",
+          "points": 1,
+          "outcome": "SE-HI-CG4-G3"
+        },
+        {
+          "id": "q_g3_01_3",
+          "type": "why_how",
+          "question_hi": "आदमी ने अपना कोट क्यों उतार दिया?",
+          "question_en": "Why did the man take off his coat?",
+          "expected_answer_hi": "सूरज के तपने से बहुत गर्मी लगी",
+          "expected_answer_en": "Because of the heat from the shining sun",
+          "points": 1,
+          "outcome": "SE-HI-CG2-G3"
+        },
+        {
+          "id": "q_g3_01_4",
+          "type": "main_idea",
+          "question_hi": "इस कहानी का मुख्य संदेश क्या है?",
+          "question_en": "What is the main message of this story?",
+          "expected_answer_hi": "घमंड करने से नुकसान होता है / नम्रता और युक्ति से काम बनता है",
+          "expected_answer_en": "Pride harms, while gentleness and wisdom win",
+          "points": 1,
+          "outcome": "SE-HI-CG2-G3"
+        }
+      ],
+      "dictation_fallback_words": [
+        "बलवान",
+        "मुस्कुराकर",
+        "शर्त",
+        "रास्ता",
+        "अधिक"
+      ],
+      "dictation_fallback_words_en": [
+        "strong",
+        "smiled",
+        "challenge",
+        "road",
+        "greater"
+      ],
+      "review_status": "pending_teacher_review",
+      "ncert_outcomes": [
+        "FS-HI-C10.3-G2",
+        "SE-HI-CG2-G3",
+        "SE-HI-CG4-G3"
+      ],
+      "familiarity_note": "Well-known fable: a child may know the story already, which can make the questions easier than an unfamiliar text."
+    },
+    {
+      "id": "p_g3_02",
+      "grade": 3,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "चींटी और कबूतर",
+      "title_en": "The Ant and the Dove",
+      "text_hi": "एक छोटी चींटी नदी के किनारे पानी पी रही थी। अचानक उसका पैर फिसला और वह पानी की तेज धारा में बहने लगी। पेड़ की डाल पर बैठा कबूतर यह सब देख रहा था। उसने तुरंत एक सूखा पत्ता तोड़ा और चींटी के पास गिरा दिया। चींटी पत्ते पर चढ़ गई और किनारे आ गई। कुछ दिनों बाद एक शिकारी जाल लेकर आया। चींटी ने शिकारी के पैर पर ज़ोर से काटा। शिकारी चिल्लाया और कबूतर उड़ गया।",
+      "text_en": "A little ant was drinking water by the river bank. Suddenly her foot slipped and she was swept away in the rapid current. A dove sitting on a branch saw this happen. He promptly plucked a dry leaf and dropped it near the ant. The ant climbed onto the leaf and reached the bank safely. A few days later a hunter arrived with a net. The ant bit the hunter's foot hard. The hunter cried out and the dove flew away safely.",
+      "word_count": 78,
+      "difficulty_level": "standard",
+      "outcome_codes": [
+        "H301",
+        "H306",
+        "H308"
+      ],
+      "skills": [
+        "fluency_60wpm",
+        "inference",
+        "questions_4"
+      ],
+      "retell_points": [
+        "चींटी नदी में पानी पीते समय फिसल गई",
+        "कबूतर ने पत्ता गिराकर चींटी की जान बचाई",
+        "कुछ दिन बाद जंगल में शिकारी आया",
+        "चींटी ने शिकारी के पैर पर काटा",
+        "शिकारी चिल्लाया और कबूतर सुरक्षित उड़ गया"
+      ],
+      "retell_points_en": [
+        "The ant slipped while drinking water from the river",
+        "The dove dropped a leaf to save the ant's life",
+        "A few days later a hunter arrived in the woods",
+        "The ant bit the hunter on his foot",
+        "The hunter yelled and the dove flew to safety"
+      ],
+      "questions": [
+        {
+          "id": "q_g3_02_1",
+          "type": "fact",
+          "question_hi": "कबूतर ने चींटी को बचाने के लिए क्या किया?",
+          "question_en": "What did the dove do to save the ant?",
+          "expected_answer_hi": "पानी में पत्ता गिराया",
+          "expected_answer_en": "Dropped a leaf into the water",
+          "points": 1,
+          "outcome": "SE-HI-CG2-G3"
+        },
+        {
+          "id": "q_g3_02_2",
+          "type": "word_meaning",
+          "question_hi": "'तुरंत' का क्या अर्थ होता है?",
+          "question_en": "What does the word 'promptly' mean?",
+          "expected_answer_hi": "जल्दी से / उसी समय",
+          "expected_answer_en": "Quickly / right away",
+          "points": 1,
+          "outcome": "SE-HI-CG4-G3"
+        },
+        {
+          "id": "q_g3_02_3",
+          "type": "why_how",
+          "question_hi": "चींटी ने शिकारी को क्यों काटा?",
+          "question_en": "Why did the ant bite the hunter?",
+          "expected_answer_hi": "कबूतर को शिकारी से बचाने के लिए",
+          "expected_answer_en": "To protect the dove from the hunter",
+          "points": 1,
+          "outcome": "SE-HI-CG2-G3"
+        },
+        {
+          "id": "q_g3_02_4",
+          "type": "main_idea",
+          "question_hi": "इस कहानी से हमें क्या शिक्षा मिलती है?",
+          "question_en": "What lesson do we learn from this story?",
+          "expected_answer_hi": "कर भला तो हो भला / दूसरों की मदद करनी चाहिए",
+          "expected_answer_en": "One good turn deserves another / always help each other",
+          "points": 1,
+          "outcome": "SE-HI-CG2-G3"
+        }
+      ],
+      "dictation_fallback_words": [
+        "फिसला",
+        "कबूतर",
+        "शिकारी",
+        "तुरंत",
+        "किनारे"
+      ],
+      "dictation_fallback_words_en": [
+        "slipped",
+        "dove",
+        "hunter",
+        "promptly",
+        "bank"
+      ],
+      "review_status": "pending_teacher_review",
+      "ncert_outcomes": [
+        "FS-HI-C10.3-G2",
+        "SE-HI-CG2-G3",
+        "SE-HI-CG4-G3"
+      ],
+      "familiarity_note": "Well-known fable: a child may know the story already, which can make the questions easier than an unfamiliar text."
+    },
+    {
+      "id": "p_g4_01",
+      "grade": 4,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "जंगल की पाठशाला",
+      "title_en": "Forest School",
+      "text_hi": "बरगद के घने पेड़ के नीचे जंगल के सभी नन्हे जानवर इकट्ठा होते थे। उल्लू दादा चश्मा लगाकर उन्हें ज्ञान की बातें सिखाते थे। खरगोश चंचलता छोड़कर शांत बैठना सीखता, तो गिलहरी अखरोट तोड़ने की सही कला सीखती। एक दिन जंगल में तेज़ आंधी आई। उल्लू दादा की सीख याद करके सभी जानवरों ने गुफा में शरण ली और सुरक्षित रहे। एकता और ज्ञान ने सबकी रक्षा की।",
+      "text_en": "Under the dense banyan tree, all the little forest animals gathered together. Grandpa Owl wore spectacles and taught them words of wisdom. The rabbit learned to sit quietly instead of hopping, while the squirrel learned the art of cracking walnuts. One day a fierce storm hit the forest. Remembering Grandpa Owl's advice, all animals took shelter in a cave and remained safe. Unity and wisdom protected everyone.",
+      "word_count": 68,
+      "difficulty_level": "advanced",
+      "outcome_codes": [
+        "H401",
+        "H405"
+      ],
+      "skills": [
+        "complex_conjuncts",
+        "vocabulary",
+        "inference"
+      ],
+      "retell_points": [
+        "बरगद के नीचे नन्हे जानवर पढ़ते थे",
+        "उल्लू दादा चश्मा लगाकर सिखाते थे",
+        "खरगोश और गिलहरी अच्छी आदतें सीखते थे",
+        "तेज़ आंधी आने पर सब गुफा में गए",
+        "एकता और सीख से सब सुरक्षित रहे"
+      ],
+      "retell_points_en": [
+        "Little animals studied under the banyan tree",
+        "Grandpa Owl taught them wearing glasses",
+        "Rabbit and squirrel learned good habits",
+        "During a fierce storm they all went into a cave",
+        "Unity and wisdom kept everyone safe"
+      ],
+      "questions": [
+        {
+          "id": "q_g4_01_1",
+          "type": "fact",
+          "question_hi": "जानवरों के शिक्षक कौन थे?",
+          "question_en": "Who was the teacher of the animals?",
+          "expected_answer_hi": "उल्लू दादा",
+          "expected_answer_en": "Grandpa Owl",
+          "points": 1
+        },
+        {
+          "id": "q_g4_01_2",
+          "type": "word_meaning",
+          "question_hi": "'शरण' शब्द का क्या अर्थ है?",
+          "question_en": "What does the word 'shelter' mean?",
+          "expected_answer_hi": "आश्रय / ओट / सुरक्षित जगह",
+          "expected_answer_en": "A safe place / refuge",
+          "points": 1
+        },
+        {
+          "id": "q_g4_01_3",
+          "type": "why_how",
+          "question_hi": "आंधी आने पर जानवरों ने क्या किया?",
+          "question_en": "What did the animals do when the storm came?",
+          "expected_answer_hi": "गुफा में जाकर शरण ली",
+          "expected_answer_en": "Took shelter inside a cave",
+          "points": 1
+        },
+        {
+          "id": "q_g4_01_4",
+          "type": "main_idea",
+          "question_hi": "इस पाठ का मुख्य भाव क्या है?",
+          "question_en": "What is the central theme of this lesson?",
+          "expected_answer_hi": "ज्ञान और एकता से विपत्ति से बचा जा सकता है",
+          "expected_answer_en": "Wisdom and unity help overcome adversity",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "इकट्ठा",
+        "चंचलता",
+        "अखरोट",
+        "सुरक्षित",
+        "विपत्ति"
+      ],
+      "dictation_fallback_words_en": [
+        "gathered",
+        "restless",
+        "walnut",
+        "shelter",
+        "wisdom"
+      ],
+      "review_status": "pending_teacher_review"
+    },
+    {
+      "id": "p_g4_02",
+      "grade": 4,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "जल ही जीवन है",
+      "title_en": "Water is Life",
+      "text_hi": "पानी हमारे जीवन की सबसे अनमोल निधि है। सुबह उठने से लेकर रात को सोने तक हमें पानी की आवश्यकता होती है। किसान खेतों में फसल उगाने के लिए पानी पर निर्भर रहते हैं। यदि जल स्रोत प्रदूषित हो जाएं, तो बीमारियाँ फैलती हैं। इसलिए हमें पानी की एक-एक बूँद बचानी चाहिए और नलों को खुला नहीं छोड़ना चाहिए।",
+      "text_en": "Water is the most precious gift of our lives. From waking up in the morning to sleeping at night, we need water for everything. Farmers rely on water to cultivate crops in their fields. If water sources become polluted, diseases spread rapidly. Therefore, we must save every single drop of water and never leave taps running open.",
+      "word_count": 59,
+      "difficulty_level": "advanced",
+      "outcome_codes": [
+        "H401",
+        "H405"
+      ],
+      "skills": [
+        "informative_text",
+        "cause_effect"
+      ],
+      "retell_points": [
+        "पानी अनमोल निधि है",
+        "सुबह से रात तक पानी की जरूरत होती है",
+        "खेतों में फसल उगाने के लिए पानी चाहिए",
+        "प्रदूषण से बीमारियाँ फैलती हैं",
+        "पानी की हर बूँद बचानी चाहिए"
+      ],
+      "retell_points_en": [
+        "Water is a precious resource",
+        "Water is needed throughout the entire day",
+        "Farmers depend on water to cultivate crops",
+        "Water pollution leads to disease",
+        "Every single drop of water must be preserved"
+      ],
+      "questions": [
+        {
+          "id": "q_g4_02_1",
+          "type": "fact",
+          "question_hi": "किसान पानी का उपयोग किस काम में करते हैं?",
+          "question_en": "How do farmers use water?",
+          "expected_answer_hi": "फसल उगाने के लिए / खेती में",
+          "expected_answer_en": "To cultivate crops / for farming",
+          "points": 1
+        },
+        {
+          "id": "q_g4_02_2",
+          "type": "why_how",
+          "question_hi": "पानी का संरक्षण क्यों आवश्यक है?",
+          "question_en": "Why is water conservation necessary?",
+          "expected_answer_hi": "क्योंकि जल जीवन के लिए अनमोल है और इसके बिना जीवन संभव नहीं",
+          "expected_answer_en": "Because water is precious and life is impossible without it",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "अनमोल",
+        "आवश्यकता",
+        "प्रदूषित",
+        "स्रोत",
+        "संरक्षण"
+      ],
+      "dictation_fallback_words_en": [
+        "precious",
+        "requirement",
+        "polluted",
+        "source",
+        "conservation"
+      ],
+      "review_status": "pending_teacher_review"
+    },
+    {
+      "id": "p_g5_01",
+      "grade": 5,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "पुस्तकालय का जादू",
+      "title_en": "The Magic of Library",
+      "text_hi": "गाँव के पुराने विद्यालय में एक छोटा सा पुस्तकालय स्थापित हुआ। पहले दिन बच्चे केवल रंगीन चित्रों वाली कहानियाँ देख रहे थे। धीरे-धीरे उन्होंने विज्ञान, इतिहास और महापुरुषों की जीवनियाँ पढ़ना शुरू किया। रोहन को अंतरिक्ष से जुड़ी पुस्तकों में विशेष रुचि थी। उसने तारों और ग्रहों के रहस्य जाने। पुस्तकें हमें घर बैठे पूरी दुनिया की सैर कराती हैं और हमारे दृष्टिकोण को विशाल बनाती हैं।",
+      "text_en": "A small library was set up in the old village school. On the first day, children only looked at stories with colorful pictures. Gradually, they began reading science, history, and biographies of great leaders. Rohan had a special interest in books about outer space. He learned secrets of the stars and planets. Books let us travel the world from home and broaden our horizons.",
+      "word_count": 68,
+      "difficulty_level": "grade5",
+      "outcome_codes": [
+        "H501",
+        "H506"
+      ],
+      "skills": [
+        "critical_reading",
+        "vocabulary",
+        "broad_comprehension"
+      ],
+      "retell_points": [
+        "गाँव के स्कूल में नया पुस्तकालय खुला",
+        "बच्चों ने चित्रों वाली कहानियों से शुरुआत की",
+        "बाद में विज्ञान और इतिहास की पुस्तकें पढ़ीं",
+        "रोहन को अंतरिक्ष में विशेष रुचि थी",
+        "पुस्तकें दृष्टिकोण विशाल बनाती हैं"
+      ],
+      "retell_points_en": [
+        "A library was set up in the village school",
+        "Children started with picture stories",
+        "Later they read science, history and biographies",
+        "Rohan was fascinated by books on outer space",
+        "Books broaden our vision and perspectives"
+      ],
+      "questions": [
+        {
+          "id": "q_g5_01_1",
+          "type": "fact",
+          "question_hi": "रोहन को किस विषय की पुस्तकों में विशेष रुचि थी?",
+          "question_en": "Which topic of books was Rohan especially interested in?",
+          "expected_answer_hi": "अंतरिक्ष और तारों-ग्रहों के विषय में",
+          "expected_answer_en": "Outer space, stars, and planets",
+          "points": 1
+        },
+        {
+          "id": "q_g5_01_2",
+          "type": "word_meaning",
+          "question_hi": "'दृष्टिकोण' का क्या अर्थ है?",
+          "question_en": "What does the word 'horizons' mean in this context?",
+          "expected_answer_hi": "सोचने का नजरिया / देखने का ढंग",
+          "expected_answer_en": "Perspective / point of view / range of thinking",
+          "points": 1
+        },
+        {
+          "id": "q_g5_01_3",
+          "type": "why_how",
+          "question_hi": "पुस्तकों को दुनिया की सैर कराने वाला क्यों कहा गया है?",
+          "question_en": "Why are books said to take us on a tour of the world?",
+          "expected_answer_hi": "क्योंकि वे हमें घर बैठे दूर देशों और ज्ञान की जानकारी देती हैं",
+          "expected_answer_en": "Because they give us knowledge of faraway lands from home",
+          "points": 1
+        },
+        {
+          "id": "q_g5_01_4",
+          "type": "main_idea",
+          "question_hi": "इस पाठ का मुख्य विचार क्या है?",
+          "question_en": "What is the central idea?",
+          "expected_answer_hi": "पुस्तकालय और पुस्तकों का हमारे ज्ञान व सोच पर गहरा प्रभाव पड़ता है",
+          "expected_answer_en": "Libraries and reading deeply expand our knowledge and thinking",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "पुस्तकालय",
+        "अंतरिक्ष",
+        "दृष्टिकोण",
+        "महापुरुषों",
+        "रहस्य"
+      ],
+      "dictation_fallback_words_en": [
+        "library",
+        "space",
+        "perspective",
+        "leaders",
+        "secrets"
+      ],
+      "review_status": "pending_teacher_review"
+    },
+    {
+      "id": "p_g5_02",
+      "grade": 5,
+      "curriculum": "all",
+      "type": "passage",
+      "title_hi": "समय का सदुपयोग",
+      "title_en": "Right Use of Time",
+      "text_hi": "समय निरंतर बहती नदी की तरह है, जो कभी वापस नहीं लौटती। जो व्यक्ति समय का मूल्य समझता है, सफलता उसी के कदम चूमती है। विद्यार्थी जीवन में समय का अनुशासन सबसे महत्वपूर्ण गुण है। आज का काम कल पर टालने की आदत असफलता की ओर ले जाती है। प्रत्येक क्षण को उपयोगी बनाकर ही हम अपने सपनों को साकार कर सकते हैं।",
+      "text_en": "Time is like a continuous flowing river that never turns back. Success kisses the feet of one who understands the value of time. In student life, discipline of time is the most essential quality. The habit of postponing today's task until tomorrow leads toward failure. Only by making purposeful use of every single moment can we turn our dreams into reality.",
+      "word_count": 63,
+      "difficulty_level": "grade5",
+      "outcome_codes": [
+        "H501",
+        "H506"
+      ],
+      "skills": [
+        "reflective_reading",
+        "idioms",
+        "values"
+      ],
+      "retell_points": [
+        "समय निरंतर बहती नदी के समान है",
+        "समय का मूल्य समझने वाले को सफलता मिलती है",
+        "विद्यार्थी जीवन में अनुशासन जरूरी है",
+        "काम टालने की आदत से असफलता मिलती है",
+        "हर क्षण का सदुपयोग करके सपने साकार होते हैं"
+      ],
+      "retell_points_en": [
+        "Time is like a constantly flowing river",
+        "Those who value time achieve success",
+        "Discipline is vital in student life",
+        "Postponing work leads to failure",
+        "Valuing every moment turns dreams into reality"
+      ],
+      "questions": [
+        {
+          "id": "q_g5_02_1",
+          "type": "fact",
+          "question_hi": "समय की तुलना किससे की गई है?",
+          "question_en": "What is time compared to?",
+          "expected_answer_hi": "निरंतर बहती नदी से",
+          "expected_answer_en": "A constantly flowing river",
+          "points": 1
+        },
+        {
+          "id": "q_g5_02_2",
+          "type": "word_meaning",
+          "question_hi": "'सदुपयोग' का क्या अर्थ है?",
+          "question_en": "What does 'purposeful use' mean?",
+          "expected_answer_hi": "सही या अच्छा उपयोग",
+          "expected_answer_en": "Good or productive use",
+          "points": 1
+        },
+        {
+          "id": "q_g5_02_3",
+          "type": "why_how",
+          "question_hi": "विद्यार्थी के लिए काम को कल पर टालना क्यों हानिकारक है?",
+          "question_en": "Why is postponing work harmful for a student?",
+          "expected_answer_hi": "क्योंकि इससे काम का बोझ बढ़ता है और असफलता मिलती है",
+          "expected_answer_en": "Because it increases burden and leads to failure",
+          "points": 1
+        }
+      ],
+      "dictation_fallback_words": [
+        "निरंतर",
+        "अनुशासन",
+        "सफलता",
+        "सदुपयोग",
+        "महत्वपूर्ण"
+      ],
+      "dictation_fallback_words_en": [
+        "continuous",
+        "discipline",
+        "success",
+        "productive",
+        "essential"
+      ],
+      "review_status": "pending_teacher_review"
+    }
+  ],
+  "ncert_outcomes_note": "ncert_outcomes and question 'outcome' fields point to assets/curriculum/hindi_outcomes_g1_3.json (Classes 1-3 only). outcome_codes (H101...) are Uttar Pradesh state codes listed in docs/CURRICULUM_SOURCE_REGISTER.md; they are not NCERT codes and were not re-checked."
+}

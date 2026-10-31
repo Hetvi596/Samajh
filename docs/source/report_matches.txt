@@ -1,0 +1,71 @@
+Samajh  समझProject reportAn offline Android app that helps Class 1 to 5 teachers check whether children understand what they read, and what to teach nextTeam Runtime Terrors, VIT PuneStatus as of 21 
+===
+ curriculum44. What has been built54.1 A check, step by step54.2 Support groups54.3 Practice and reports (M7)64.4 Screenshots from the app65. Architecture and technology86. Privacy and security97. Testing and quality98. Known limitations99. What is going to be
+===
+riculum44. What has been built54.1 A check, step by step54.2 Support groups54.3 Practice and reports (M7)64.4 Screenshots from the app65. Architecture and technology86. Privacy and security97. Testing and quality98. Known limitations99. What is going to be bui
+===
+at has been built54.1 A check, step by step54.2 Support groups54.3 Practice and reports (M7)64.4 Screenshots from the app65. Architecture and technology86. Privacy and security97. Testing and quality98. Known limitations99. What is going to be built1010. Decis
+===
+en built54.1 A check, step by step54.2 Support groups54.3 Practice and reports (M7)64.4 Screenshots from the app65. Architecture and technology86. Privacy and security97. Testing and quality98. Known limitations99. What is going to be built1010. Decisions and 
+===
+ with a child and see reading and understanding as separate results, then get a practice plan. Six of ten milestones are complete and tested, the seventh is built, and a test APK is ready. All data so far is a fictional demo class: real children's data stays b
+===
+r the school's ownDoneM1 to M6, plus class-wise government milestonesIn progressM7 practice and reports (built, unit-tested; screen tests written but not yet run)Still to buildM8 privacy and consent workflow, M9 testing and performance, M10 signed releaseAutom
+===
+he school's ownDoneM1 to M6, plus class-wise government milestonesIn progressM7 practice and reports (built, unit-tested; screen tests written but not yet run)Still to buildM8 privacy and consent workflow, M9 testing and performance, M10 signed releaseAutomate
+===
+wnDoneM1 to M6, plus class-wise government milestonesIn progressM7 practice and reports (built, unit-tested; screen tests written but not yet run)Still to buildM8 privacy and consent workflow, M9 testing and performance, M10 signed releaseAutomated tests184 pa
+===
+ readDocumentUsed forNCERT, Foundational Learning Study (FLS) 2022 benchmarking reportClass 3 reading bands (Hindi "meets" 35 to 54 correct words per minute with comprehension; English 35 to 53); question typesMinistry of Education, NIPUN Bharat Guidelines (20
+===
+ notebook photo, listening check, four support groups the teacher can changeDoneM7 Practice and reportsPractice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, ste
+===
+tebook photo, listening check, four support groups the teacher can changeDoneM7 Practice and reportsPractice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step b
+===
+ listening check, four support groups the teacher can changeDoneM7 Practice and reportsPractice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe tea
+===
+ing check, four support groups the teacher can changeDoneM7 Practice and reportsPractice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe teacher op
+===
+ngeDoneM7 Practice and reportsPractice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe teacher opens a child and taps Start a check. The app picks 
+===
+and reportsPractice engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe teacher opens a child and taps Start a check. The app picks a passage that fits
+===
+e engine, 10-minute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe teacher opens a child and taps Start a check. The app picks a passage that fits the class and run
+===
+nute group plans, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe teacher opens a child and taps Start a check. The app picks a passage that fits the class and runs a 3-second ro
+===
+ns, decodable practice words, A4 worksheets, child report, parent report, class dashboardBuilt; finishing4.1 A check, step by stepThe teacher opens a child and taps Start a check. The app picks a passage that fits the class and runs a 3-second room-noise check
+===
+ A listening check that shows understanding moves the child to the second group.4.3 Practice and reports (M7)Practice engine: turns each child's evidence into needs (matras, conjuncts, bindu, word reading, fluency, facts, why and how, word meanings, spelling, 
+===
+istening check that shows understanding moves the child to the second group.4.3 Practice and reports (M7)Practice engine: turns each child's evidence into needs (matras, conjuncts, bindu, word reading, fluency, facts, why and how, word meanings, spelling, list
+===
+k that shows understanding moves the child to the second group.4.3 Practice and reports (M7)Practice engine: turns each child's evidence into needs (matras, conjuncts, bindu, word reading, fluency, facts, why and how, word meanings, spelling, listening).Group 
+===
+ows understanding moves the child to the second group.4.3 Practice and reports (M7)Practice engine: turns each child's evidence into needs (matras, conjuncts, bindu, word reading, fluency, facts, why and how, word meanings, spelling, listening).Group plans: a 
+===
+ understanding moves the child to the second group.4.3 Practice and reports (M7)Practice engine: turns each child's evidence into needs (matras, conjuncts, bindu, word reading, fluency, facts, why and how, word meanings, spelling, listening).Group plans: a 10-
+===
+ of 14 original activities in English and Hindi, plus a home activity.Decodable practice words: the child's misread words first, then words built only from aksharas the child has already read correctly.A4 worksheets: printed through Android's print screen. Hin
+===
+st, then words built only from aksharas the child has already read correctly.A4 worksheets: printed through Android's print screen. Hindi is drawn by Flutter's text engine because the PDF library misprints Hindi (it printed "कतिाब" instead of "किताब").Child re
+===
+e the PDF library misprints Hindi (it printed "कतिाब" instead of "किताब").Child report: results, gaps, recommended action, practice words, suggested recheck date, and progress only between comparable checks.Parent report: plain Hindi or English, no scores or r
+===
+ed "कतिाब" instead of "किताब").Child report: results, gaps, recommended action, practice words, suggested recheck date, and progress only between comparable checks.Parent report: plain Hindi or English, no scores or rankings. It can only be printed or shared a
+===
+rds, suggested recheck date, and progress only between comparable checks.Parent report: plain Hindi or English, no scores or rankings. It can only be printed or shared after the teacher ticks an approval box.Class dashboard: checked and waiting counts, group c
+===
+ It can only be printed or shared after the teacher ticks an approval box.Class dashboard: checked and waiting counts, group counts, most often misread aksharas, spelling issues, rechecks due, and changes between comparable checks. Empty states instead of made
+===
+ akshara segmentation, word comparison, scoring rubric v0.1, dictation, groups, practice, progressPrintingpdf and printing packages; pages drawn with Flutter's text engineContentCurriculum registry (74 learning outcomes, 15 textbooks), benchmark registry, 9 or
+===
+ulesDevanagari parser, word comparison, scoring, benchmarks, dictation, groups, practice, decodability, progress comparisonDataRepositories, encryption on disk, recording and photo vaults, migrations v1 to v4ScreensOnboarding, lock, Student Mode escape attempt
+===
+g only, not for the Play Store.9. What is going to be builtMilestonePlanned workM7 finishRun the new screen tests, emulator review with screenshots, commitM8 Privacy and securityConsent screens for real children; data deletion and withdrawal; the DPDP checklis
+===
+d release APK with the team's own key, release notes, install guide, completion reportAfter the hackathonClassroom pilot and rubric calibration; more reviewed passages for every class; speech-recognition trial that only suggests marks; Marathi; optional backen
+===
+ren. Try: Class tab → a child → Start a check; the Class 3 milestones page; the Practice and Reports tabs.This build is for testing only. It contains no real children's data and sends nothing over the internet.
+===
+ss tab → a child → Start a check; the Class 3 milestones page; the Practice and Reports tabs.This build is for testing only. It contains no real children's data and sends nothing over the internet.

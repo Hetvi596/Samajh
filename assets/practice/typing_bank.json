@@ -1,0 +1,148 @@
+{
+  "version": "0.1.0",
+  "status": "awaiting teacher review",
+  "note": "Words the child types after hearing them. Levels go from simple letters to matras to half letters and bindu. Original Samajh word lists, to be reviewed by teachers before the pilot.",
+  "hindi": {
+    "level_1": [
+      "घर",
+      "जल",
+      "नल",
+      "बस",
+      "कमल",
+      "मटर"
+    ],
+    "level_2": [
+      "पानी",
+      "किताब",
+      "सूरज",
+      "मेला",
+      "खिलौना",
+      "रोटी"
+    ],
+    "level_3": [
+      "गुब्बारा",
+      "स्कूल",
+      "बच्चा",
+      "चाँद",
+      "बंदर",
+      "पत्ता"
+    ]
+  },
+  "english": {
+    "level_1": [
+      "cat",
+      "sun",
+      "pen",
+      "bus",
+      "hat",
+      "cup"
+    ],
+    "level_2": [
+      "fish",
+      "ship",
+      "tree",
+      "book",
+      "milk",
+      "frog"
+    ],
+    "level_3": [
+      "school",
+      "friend",
+      "garden",
+      "water",
+      "flower",
+      "little"
+    ]
+  },
+  "hindi_by_grade": {
+    "1": {
+      "outcomes": [
+        "FS-HI-C10.8-G1"
+      ],
+      "level_1": [
+        "घर",
+        "जल",
+        "नल",
+        "बस",
+        "फल",
+        "वन"
+      ],
+      "level_2": [
+        "कमल",
+        "मटर",
+        "बतख",
+        "नमक",
+        "कलम",
+        "महल"
+      ],
+      "level_3": [
+        "नाना",
+        "दादी",
+        "पानी",
+        "रानी",
+        "आम",
+        "नाव"
+      ]
+    },
+    "2": {
+      "outcomes": [
+        "FS-HI-C10.3-G2",
+        "FS-HI-C10.8-G2"
+      ],
+      "level_1": [
+        "दादी",
+        "पानी",
+        "नदी",
+        "किला",
+        "घास",
+        "चाबी"
+      ],
+      "level_2": [
+        "सूरज",
+        "मेला",
+        "रोटी",
+        "फूल",
+        "चूहा",
+        "बैल"
+      ],
+      "level_3": [
+        "बच्चा",
+        "पत्ता",
+        "दोस्त",
+        "बंदर",
+        "गुब्बारा",
+        "अच्छा"
+      ]
+    },
+    "3": {
+      "outcomes": [
+        "SE-HI-CG3-G3"
+      ],
+      "level_1": [
+        "किसान",
+        "खिलौना",
+        "पौधा",
+        "तितली",
+        "बादल",
+        "मेला"
+      ],
+      "level_2": [
+        "स्कूल",
+        "मित्र",
+        "पत्र",
+        "रस्सी",
+        "पुस्तक",
+        "चम्मच"
+      ],
+      "level_3": [
+        "प्रकृति",
+        "विद्यालय",
+        "ट्रक",
+        "चंद्रमा",
+        "पृथ्वी",
+        "किताबें"
+      ]
+    }
+  },
+  "hindi_by_grade_note": "Class-wise Hindi typing words for Classes 1-3: Class 1 no-matra words then the first matras (FS C-10.8 G1, 3-4 akshara words in dictation); Class 2 all matras then conjuncts (FS C-10.3 G2); Class 3 conjuncts and र forms (NCF-SE CG-3). Original lists, awaiting teacher review."
+}
