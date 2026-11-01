@@ -49,13 +49,16 @@ final teacherProfileStreamProvider = StreamProvider<TeacherProfileTableData?>((r
 /// Explicitly selected class ID state provider
 final selectedClassIdProvider = StateProvider<String?>((ref) => null);
 
-/// Classes Stream Provider for the current active scope
+/// Classes the teacher can switch between: their own classes first, then the
+/// fictional sample class (demo scope).
 final classesForScopeStreamProvider = StreamProvider<List<ClassesTableData>>((ref) {
   final db = ref.watch(appDatabaseProvider);
-  final scope = ref.watch(activeScopeProvider);
   return (db.select(db.classesTable)
-        ..where((t) => t.scope.equals(scope))
-        ..orderBy([(t) => OrderingTerm.asc(t.grade), (t) => OrderingTerm.asc(t.section)]))
+        ..orderBy([
+          (t) => OrderingTerm.desc(t.scope), // 'real' before 'demo'
+          (t) => OrderingTerm.asc(t.grade),
+          (t) => OrderingTerm.asc(t.section),
+        ]))
       .watch();
 });
 
@@ -227,13 +230,17 @@ final toDoCountsProvider = Provider<ToDoCounts>((ref) {
 /// Function to change active class stably
 Future<void> switchActiveClass(dynamic ref, String classId) async {
   ref.read(selectedClassIdProvider.notifier).state = classId;
-  final db = ref.read(appDatabaseProvider);
+  final AppDatabase db = ref.read(appDatabaseProvider);
+  final cls = await (db.select(db.classesTable)..where((t) => t.id.equals(classId))).getSingleOrNull();
+  // Picking the sample class switches to demo data; picking a real class
+  // switches back.
   await db.update(db.appSettingsTable).write(
     AppSettingsTableCompanion(
       activeClassId: Value(classId),
+      activeScope: cls == null ? const Value.absent() : Value(cls.scope),
     ),
   );
-  final cls = await (db.select(db.classesTable)..where((t) => t.id.equals(classId))).getSingleOrNull();
+  if (cls != null) ref.read(activeScopeProvider.notifier).state = cls.scope;
   if (cls != null && cls.checkLanguage.isNotEmpty) {
     ref.read(readingLanguageProvider.notifier).state = cls.checkLanguage;
   }
@@ -261,6 +268,15 @@ class SupportGroupCounts {
 /// Support Group Counts Provider
 final supportGroupCountsProvider = Provider<SupportGroupCounts>((ref) {
   final children = ref.watch(rosterStreamProvider).value ?? [];
+  final assignments = ref.watch(groupAssignmentsStreamProvider).value ?? [];
+
+  // A child's group is their latest group move (from a check or the
+  // teacher), the same source the Class list and child profile use.
+  final latestGroup = <String, GroupAssignmentsTableData>{};
+  for (final g in assignments) {
+    final seen = latestGroup[g.childId];
+    if (seen == null || g.movedAt.isAfter(seen.movedAt)) latestGroup[g.childId] = g;
+  }
 
   int notGrouped = 0;
   int onTrack = 0;
@@ -269,17 +285,17 @@ final supportGroupCountsProvider = Provider<SupportGroupCounts>((ref) {
   int needsBoth = 0;
 
   for (final c in children) {
-    switch (c.currentGroup) {
-      case 'on_track':
+    switch (latestGroup[c.id]?.toGroup) {
+      case 'On track':
         onTrack++;
         break;
-      case 'needs_decoding':
+      case 'Understands, needs help reading words':
         needsDecoding++;
         break;
-      case 'needs_comprehension':
+      case 'Reads words, needs help understanding':
         needsComprehension++;
         break;
-      case 'needs_both':
+      case 'Needs help with both':
         needsBoth++;
         break;
       default:

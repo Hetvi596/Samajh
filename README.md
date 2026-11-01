@@ -61,6 +61,26 @@ Run the tests with `flutter test`.
 
 **First launch:** choose English or Hindi, read the privacy promise and set a 6-digit passcode. The app opens with a demo class of fictional children.
 
+## Sample inputs
+
+All data stays on the phone, so the app ships with a **sample class** that every install sees.
+
+1. After setting up your own class, tap the **Sample 3B** tab on the Today screen. A banner marks it as demo mode: all children and results are fictional.
+2. Six of its ten fictional children already have a finished check of the Class 3 Hindi story "सूरज और हवा की शर्त". Together they show each support group:
+
+| Child | Sample input | Result shown |
+|---|---|---|
+| Aarav K. | Reads accurately and fluently, answers all questions | On track |
+| Diya M. / Meera T. | Accurate reading, understands most of the story | On track |
+| Kabir S. | Slow reading with matra and conjunct errors, but understands | Understands, needs help reading words |
+| Ananya P. | Fluent reading, misses the why and main-idea questions | Reads words, needs help understanding |
+| Rohan V. | Many errors, stops before the end, few answers | Needs help with both |
+
+3. Open the **Class**, **Practice** and **Reports** tabs to see the class view, group plans and reports built from these results.
+4. To try the speech AI yourself, tap **Start a check** for one of the four unchecked children (for example Vihaan B.) and read the story aloud. Try it three ways: read it clearly, read it with a few words skipped, and stay silent. Silence gives "Not enough evidence"; the app never guesses.
+
+The sample results are worked out from made-up word marks and answers with the same rules a real check uses ([lib/core/database/sample_checks.dart](lib/core/database/sample_checks.dart)).
+
 ## Environment file
 
 [`.env.example`](.env.example) lists every variable. Both are optional:

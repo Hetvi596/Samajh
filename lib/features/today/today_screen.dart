@@ -117,6 +117,31 @@ class TodayScreen extends ConsumerWidget {
               const SizedBox(height: SamajhSpace.md),
             ],
 
+            // The sample class holds fictional children and results only.
+            if (scope == 'demo') ...[
+              Container(
+                key: const Key('sample_class_banner'),
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                decoration: BoxDecoration(
+                  color: SamajhColors.paleMint,
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                child: Row(
+                  children: [
+                    const Icon(Icons.info_outline, size: 18, color: SamajhColors.forestGreen),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        l10n.demoModeBanner,
+                        style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: SamajhColors.textNavy),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: SamajhSpace.md),
+            ],
+
             // The open class: how many children are checked and the next step.
             StreamBuilder<List<ChildrenTableData>>(
               stream: (db.select(

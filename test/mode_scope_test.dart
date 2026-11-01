@@ -17,10 +17,10 @@ void main() {
       await db.close();
     });
 
-    test('Demo scope seeds exactly 1 demo class (3B) and 10 unchecked children', () async {
+    test('Demo scope seeds exactly 1 sample class (3B) and 10 fictional children', () async {
       final demoClasses = await (db.select(db.classesTable)..where((t) => t.scope.equals('demo'))).get();
       expect(demoClasses.length, equals(1));
-      expect(demoClasses.first.name, equals('Class 3B'));
+      expect(demoClasses.first.name, equals('Sample 3B'));
       expect(demoClasses.first.grade, equals(3));
       expect(demoClasses.first.curriculum, equals('up'));
       expect(demoClasses.first.checkLanguage, equals('hi'));
@@ -30,6 +30,28 @@ void main() {
       for (final child in demoChildren) {
         expect(child.currentGroup, equals('not_grouped'));
       }
+    });
+
+    test('Sample class has six finished checks covering every support group, all fictional', () async {
+      final checks = await (db.select(db.checksTable)..where((t) => t.scope.equals('demo'))).get();
+      expect(checks.length, equals(6));
+      expect(checks.every((c) => c.status == 'completed' && c.classId == 'demo_class_3b'), isTrue);
+
+      final results = await (db.select(db.resultsTable)..where((t) => t.scope.equals('demo'))).get();
+      expect(results.length, equals(6));
+      expect(results.map((r) => r.groupAssigned).toSet(), {
+        'On track',
+        'Understands, needs help reading words',
+        'Reads words, needs help understanding',
+        'Needs help with both',
+      });
+      for (final r in results) {
+        expect(r.accuracyPercentage, closeTo(r.correctWords / r.attemptedWords, 1e-9));
+      }
+
+      final groups = await (db.select(db.groupAssignmentsTable)..where((t) => t.scope.equals('demo'))).get();
+      expect(groups.length, equals(6));
+      expect(await (db.select(db.resultsTable)..where((t) => t.scope.equals('real'))).get(), isEmpty);
     });
 
     test('Real scope starts completely empty and never mixes with Demo records', () async {
@@ -63,7 +85,7 @@ void main() {
       // Verify demo classes remain strictly 1 and untouched
       final demoClassesAfter = await (db.select(db.classesTable)..where((t) => t.scope.equals('demo'))).get();
       expect(demoClassesAfter.length, equals(1));
-      expect(demoClassesAfter.first.name, equals('Class 3B'));
+      expect(demoClassesAfter.first.name, equals('Sample 3B'));
     });
 
     test('Resetting demo class restores 10 fictional children to unchecked and leaves real data untouched', () async {

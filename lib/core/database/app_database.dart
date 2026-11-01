@@ -3,6 +3,7 @@ import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
+import 'sample_checks.dart';
 import 'tables.dart';
 
 part 'app_database.g.dart';
@@ -175,13 +176,13 @@ class AppDatabase extends _$AppDatabase {
       ),
     );
 
-    // 2. Default Demo Class: Class 3B · Uttar Pradesh · Hindi
+    // 2. Sample (demo) class: Class 3B · Uttar Pradesh · Hindi
     const demoClassId = 'demo_class_3b';
     await into(classesTable).insert(
       ClassesTableCompanion.insert(
         id: demoClassId,
         scope: 'demo',
-        name: 'Class 3B',
+        name: 'Sample 3B',
         grade: 3,
         section: 'B',
         curriculum: 'up',
@@ -194,7 +195,7 @@ class AppDatabase extends _$AppDatabase {
       ),
     );
 
-    // 3. Ten fictional unchecked children in demo scope
+    // 3. Ten fictional children in demo scope (six get sample checks below)
     final demoChildren = [
       ('Aarav', 'K.'),
       ('Diya', 'M.'),
@@ -236,6 +237,9 @@ class AppDatabase extends _$AppDatabase {
         ),
       );
     }
+
+    // 4. Finished sample checks, so results and groups show on first install
+    await seedSampleChecks(this, demoClassId, now);
   }
 
   /// Resets the demo class scope to initial state (10 unchecked children)
